@@ -1,0 +1,1652 @@
+[
+  {
+    "id": 1,
+    "nom": "La Roche-sur-Yon",
+    "slug": "la-roche-sur-yon",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85000",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de La Roche-sur-Yon",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à La Roche-sur-Yon (85000).",
+    "description_longue": "Pour vos travaux de {metier} à La Roche-sur-Yon (85000), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à La Roche-sur-Yon (85000) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à La Roche-sur-Yon peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à La Roche-sur-Yon ?",
+        "r": "Un professionnel basé à La Roche-sur-Yon connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nom": "Les Sables-d'Olonne",
+    "slug": "les-sables-dolonne",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85100",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Les Sables-d'Olonne",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Les Sables-d'Olonne (85100).",
+    "description_longue": "Pour vos travaux de {metier} à Les Sables-d'Olonne (85100), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Les Sables-d'Olonne (85100) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Les Sables-d'Olonne peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Les Sables-d'Olonne ?",
+        "r": "Un professionnel basé à Les Sables-d'Olonne connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nom": "Challans",
+    "slug": "challans",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85300",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Challans",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Challans (85300).",
+    "description_longue": "Pour vos travaux de {metier} à Challans (85300), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Challans (85300) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Challans peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Challans ?",
+        "r": "Un professionnel basé à Challans connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nom": "Montaigu-Vendée",
+    "slug": "montaigu-vendee",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85600",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Montaigu-Vendée",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Montaigu-Vendée (85600).",
+    "description_longue": "Pour vos travaux de {metier} à Montaigu-Vendée (85600), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Montaigu-Vendée (85600) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Montaigu-Vendée peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Montaigu-Vendée ?",
+        "r": "Un professionnel basé à Montaigu-Vendée connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nom": "Les Herbiers",
+    "slug": "les-herbiers",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85500",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Les Herbiers",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Les Herbiers (85500).",
+    "description_longue": "Pour vos travaux de {metier} à Les Herbiers (85500), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Les Herbiers (85500) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Les Herbiers peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Les Herbiers ?",
+        "r": "Un professionnel basé à Les Herbiers connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nom": "Fontenay-le-Comte",
+    "slug": "fontenay-le-comte",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85200",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Fontenay-le-Comte",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Fontenay-le-Comte (85200).",
+    "description_longue": "Pour vos travaux de {metier} à Fontenay-le-Comte (85200), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Fontenay-le-Comte (85200) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Fontenay-le-Comte peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Fontenay-le-Comte ?",
+        "r": "Un professionnel basé à Fontenay-le-Comte connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nom": "Saint-Hilaire-de-Riez",
+    "slug": "saint-hilaire-de-riez",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85270",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Hilaire-de-Riez",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Hilaire-de-Riez (85270).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Hilaire-de-Riez (85270), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Hilaire-de-Riez (85270) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Hilaire-de-Riez peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Hilaire-de-Riez ?",
+        "r": "Un professionnel basé à Saint-Hilaire-de-Riez connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nom": "Aizenay",
+    "slug": "aizenay",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85190",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Aizenay",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Aizenay (85190).",
+    "description_longue": "Pour vos travaux de {metier} à Aizenay (85190), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Aizenay (85190) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Aizenay peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Aizenay ?",
+        "r": "Un professionnel basé à Aizenay connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nom": "Luçon",
+    "slug": "lucon",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85400",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Luçon",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Luçon (85400).",
+    "description_longue": "Pour vos travaux de {metier} à Luçon (85400), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Luçon (85400) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Luçon peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Luçon ?",
+        "r": "Un professionnel basé à Luçon connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "nom": "Saint-Jean-de-Monts",
+    "slug": "saint-jean-de-monts",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85160",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Jean-de-Monts",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Jean-de-Monts (85160).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Jean-de-Monts (85160), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Jean-de-Monts (85160) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Jean-de-Monts peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Jean-de-Monts ?",
+        "r": "Un professionnel basé à Saint-Jean-de-Monts connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nom": "Le Poiré-sur-Vie",
+    "slug": "le-poire-sur-vie",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85170",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Le Poiré-sur-Vie",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Le Poiré-sur-Vie (85170).",
+    "description_longue": "Pour vos travaux de {metier} à Le Poiré-sur-Vie (85170), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Le Poiré-sur-Vie (85170) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Le Poiré-sur-Vie peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Le Poiré-sur-Vie ?",
+        "r": "Un professionnel basé à Le Poiré-sur-Vie connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "nom": "Chantonnay",
+    "slug": "chantonnay",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85110",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Chantonnay",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Chantonnay (85110).",
+    "description_longue": "Pour vos travaux de {metier} à Chantonnay (85110), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Chantonnay (85110) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Chantonnay peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Chantonnay ?",
+        "r": "Un professionnel basé à Chantonnay connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "nom": "Talmont-Saint-Hilaire",
+    "slug": "talmont-saint-hilaire",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85440",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Talmont-Saint-Hilaire",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Talmont-Saint-Hilaire (85440).",
+    "description_longue": "Pour vos travaux de {metier} à Talmont-Saint-Hilaire (85440), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Talmont-Saint-Hilaire (85440) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Talmont-Saint-Hilaire peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Talmont-Saint-Hilaire ?",
+        "r": "Un professionnel basé à Talmont-Saint-Hilaire connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "nom": "Essarts-en-Bocage",
+    "slug": "essarts-en-bocage",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85140",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Essarts-en-Bocage",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Essarts-en-Bocage (85140).",
+    "description_longue": "Pour vos travaux de {metier} à Essarts-en-Bocage (85140), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Essarts-en-Bocage (85140) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Essarts-en-Bocage peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Essarts-en-Bocage ?",
+        "r": "Un professionnel basé à Essarts-en-Bocage connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "nom": "Sèvremont",
+    "slug": "sevremont",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85700",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Sèvremont",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Sèvremont (85700).",
+    "description_longue": "Pour vos travaux de {metier} à Sèvremont (85700), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Sèvremont (85700) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Sèvremont peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Sèvremont ?",
+        "r": "Un professionnel basé à Sèvremont connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "nom": "Pouzauges",
+    "slug": "pouzauges",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85700",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Pouzauges",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Pouzauges (85700).",
+    "description_longue": "Pour vos travaux de {metier} à Pouzauges (85700), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Pouzauges (85700) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Pouzauges peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Pouzauges ?",
+        "r": "Un professionnel basé à Pouzauges connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "nom": "Mortagne-sur-Sèvre",
+    "slug": "mortagne-sur-sevre",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85290",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Mortagne-sur-Sèvre",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Mortagne-sur-Sèvre (85290).",
+    "description_longue": "Pour vos travaux de {metier} à Mortagne-sur-Sèvre (85290), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Mortagne-sur-Sèvre (85290) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Mortagne-sur-Sèvre peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Mortagne-sur-Sèvre ?",
+        "r": "Un professionnel basé à Mortagne-sur-Sèvre connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "nom": "Saint-Gilles-Croix-de-Vie",
+    "slug": "saint-gilles-croix-de-vie",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85800",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Gilles-Croix-de-Vie",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Gilles-Croix-de-Vie (85800).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Gilles-Croix-de-Vie (85800), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Gilles-Croix-de-Vie (85800) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Gilles-Croix-de-Vie peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Gilles-Croix-de-Vie ?",
+        "r": "Un professionnel basé à Saint-Gilles-Croix-de-Vie connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "nom": "Bellevigny",
+    "slug": "bellevigny",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85170",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Bellevigny",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Bellevigny (85170).",
+    "description_longue": "Pour vos travaux de {metier} à Bellevigny (85170), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Bellevigny (85170) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Bellevigny peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Bellevigny ?",
+        "r": "Un professionnel basé à Bellevigny connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "nom": "Saint-Fulgent",
+    "slug": "saint-fulgent",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85250",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Fulgent",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Fulgent (85250).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Fulgent (85250), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Fulgent (85250) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Fulgent peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Fulgent ?",
+        "r": "Un professionnel basé à Saint-Fulgent connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "nom": "La Tranche-sur-Mer",
+    "slug": "la-tranche-sur-mer",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85360",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de La Tranche-sur-Mer",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à La Tranche-sur-Mer (85360).",
+    "description_longue": "Pour vos travaux de {metier} à La Tranche-sur-Mer (85360), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à La Tranche-sur-Mer (85360) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à La Tranche-sur-Mer peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à La Tranche-sur-Mer ?",
+        "r": "Un professionnel basé à La Tranche-sur-Mer connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "nom": "Longeville-sur-Mer",
+    "slug": "longeville-sur-mer",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85560",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Longeville-sur-Mer",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Longeville-sur-Mer (85560).",
+    "description_longue": "Pour vos travaux de {metier} à Longeville-sur-Mer (85560), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Longeville-sur-Mer (85560) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Longeville-sur-Mer peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Longeville-sur-Mer ?",
+        "r": "Un professionnel basé à Longeville-sur-Mer connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "nom": "La Garnache",
+    "slug": "la-garnache",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85710",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de La Garnache",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à La Garnache (85710).",
+    "description_longue": "Pour vos travaux de {metier} à La Garnache (85710), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à La Garnache (85710) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à La Garnache peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à La Garnache ?",
+        "r": "Un professionnel basé à La Garnache connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "nom": "Les Achards",
+    "slug": "les-achards",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85150",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Les Achards",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Les Achards (85150).",
+    "description_longue": "Pour vos travaux de {metier} à Les Achards (85150), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Les Achards (85150) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Les Achards peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Les Achards ?",
+        "r": "Un professionnel basé à Les Achards connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "nom": "Le Fenouiller",
+    "slug": "le-fenouiller",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85800",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Le Fenouiller",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Le Fenouiller (85800).",
+    "description_longue": "Pour vos travaux de {metier} à Le Fenouiller (85800), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Le Fenouiller (85800) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Le Fenouiller peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Le Fenouiller ?",
+        "r": "Un professionnel basé à Le Fenouiller connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "nom": "Bournezeau",
+    "slug": "bournezeau",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85480",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Bournezeau",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Bournezeau (85480).",
+    "description_longue": "Pour vos travaux de {metier} à Bournezeau (85480), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Bournezeau (85480) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Bournezeau peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Bournezeau ?",
+        "r": "Un professionnel basé à Bournezeau connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "nom": "Notre-Dame-de-Monts",
+    "slug": "notre-dame-de-monts",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85690",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Notre-Dame-de-Monts",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Notre-Dame-de-Monts (85690).",
+    "description_longue": "Pour vos travaux de {metier} à Notre-Dame-de-Monts (85690), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Notre-Dame-de-Monts (85690) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Notre-Dame-de-Monts peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Notre-Dame-de-Monts ?",
+        "r": "Un professionnel basé à Notre-Dame-de-Monts connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "nom": "La Barre-de-Monts",
+    "slug": "la-barre-de-monts",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85550",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de La Barre-de-Monts",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à La Barre-de-Monts (85550).",
+    "description_longue": "Pour vos travaux de {metier} à La Barre-de-Monts (85550), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à La Barre-de-Monts (85550) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à La Barre-de-Monts peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à La Barre-de-Monts ?",
+        "r": "Un professionnel basé à La Barre-de-Monts connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "nom": "Beauvoir-sur-Mer",
+    "slug": "beauvoir-sur-mer",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85230",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Beauvoir-sur-Mer",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Beauvoir-sur-Mer (85230).",
+    "description_longue": "Pour vos travaux de {metier} à Beauvoir-sur-Mer (85230), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Beauvoir-sur-Mer (85230) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Beauvoir-sur-Mer peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Beauvoir-sur-Mer ?",
+        "r": "Un professionnel basé à Beauvoir-sur-Mer connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "nom": "Sainte-Hermine",
+    "slug": "sainte-hermine",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85210",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Sainte-Hermine",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Sainte-Hermine (85210).",
+    "description_longue": "Pour vos travaux de {metier} à Sainte-Hermine (85210), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Sainte-Hermine (85210) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Sainte-Hermine peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Sainte-Hermine ?",
+        "r": "Un professionnel basé à Sainte-Hermine connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "nom": "Saint-Philbert-de-Bouaine",
+    "slug": "saint-philbert-de-bouaine",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85660",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Philbert-de-Bouaine",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Philbert-de-Bouaine (85660).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Philbert-de-Bouaine (85660), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Philbert-de-Bouaine (85660) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Philbert-de-Bouaine peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Philbert-de-Bouaine ?",
+        "r": "Un professionnel basé à Saint-Philbert-de-Bouaine connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "nom": "Moutiers-les-Mauxfaits",
+    "slug": "moutiers-les-mauxfaits",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85540",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Moutiers-les-Mauxfaits",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Moutiers-les-Mauxfaits (85540).",
+    "description_longue": "Pour vos travaux de {metier} à Moutiers-les-Mauxfaits (85540), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Moutiers-les-Mauxfaits (85540) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Moutiers-les-Mauxfaits peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Moutiers-les-Mauxfaits ?",
+        "r": "Un professionnel basé à Moutiers-les-Mauxfaits connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "nom": "Saint-Étienne-du-Bois",
+    "slug": "saint-etienne-du-bois",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85670",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Étienne-du-Bois",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Étienne-du-Bois (85670).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Étienne-du-Bois (85670), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Étienne-du-Bois (85670) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Étienne-du-Bois peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Étienne-du-Bois ?",
+        "r": "Un professionnel basé à Saint-Étienne-du-Bois connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "nom": "Apremont",
+    "slug": "apremont",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85220",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Apremont",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Apremont (85220).",
+    "description_longue": "Pour vos travaux de {metier} à Apremont (85220), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Apremont (85220) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Apremont peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Apremont ?",
+        "r": "Un professionnel basé à Apremont connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "nom": "Benet",
+    "slug": "benet",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85490",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Benet",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Benet (85490).",
+    "description_longue": "Pour vos travaux de {metier} à Benet (85490), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Benet (85490) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Benet peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Benet ?",
+        "r": "Un professionnel basé à Benet connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "nom": "Nieul-sur-l'Autise",
+    "slug": "nieul-sur-lautise",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85240",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Nieul-sur-l'Autise",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Nieul-sur-l'Autise (85240).",
+    "description_longue": "Pour vos travaux de {metier} à Nieul-sur-l'Autise (85240), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Nieul-sur-l'Autise (85240) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Nieul-sur-l'Autise peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Nieul-sur-l'Autise ?",
+        "r": "Un professionnel basé à Nieul-sur-l'Autise connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "nom": "Maillezais",
+    "slug": "maillezais",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85420",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Maillezais",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Maillezais (85420).",
+    "description_longue": "Pour vos travaux de {metier} à Maillezais (85420), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Maillezais (85420) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Maillezais peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Maillezais ?",
+        "r": "Un professionnel basé à Maillezais connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "nom": "Vix",
+    "slug": "vix",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85770",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Vix",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Vix (85770).",
+    "description_longue": "Pour vos travaux de {metier} à Vix (85770), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Vix (85770) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Vix peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Vix ?",
+        "r": "Un professionnel basé à Vix connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "nom": "Angles",
+    "slug": "angles",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85750",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Angles",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Angles (85750).",
+    "description_longue": "Pour vos travaux de {metier} à Angles (85750), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Angles (85750) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Angles peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Angles ?",
+        "r": "Un professionnel basé à Angles connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "nom": "L'Île-d'Yeu",
+    "slug": "lile-dyeu",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85350",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de L'Île-d'Yeu",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à L'Île-d'Yeu (85350).",
+    "description_longue": "Pour vos travaux de {metier} à L'Île-d'Yeu (85350), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à L'Île-d'Yeu (85350) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à L'Île-d'Yeu peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à L'Île-d'Yeu ?",
+        "r": "Un professionnel basé à L'Île-d'Yeu connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "nom": "La Chaize-le-Vicomte",
+    "slug": "la-chaize-le-vicomte",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85310",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de La Chaize-le-Vicomte",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à La Chaize-le-Vicomte (85310).",
+    "description_longue": "Pour vos travaux de {metier} à La Chaize-le-Vicomte (85310), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à La Chaize-le-Vicomte (85310) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à La Chaize-le-Vicomte peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à La Chaize-le-Vicomte ?",
+        "r": "Un professionnel basé à La Chaize-le-Vicomte connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "nom": "Le Bernard",
+    "slug": "le-bernard",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85560",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Le Bernard",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Le Bernard (85560).",
+    "description_longue": "Pour vos travaux de {metier} à Le Bernard (85560), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Le Bernard (85560) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Le Bernard peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Le Bernard ?",
+        "r": "Un professionnel basé à Le Bernard connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "nom": "Beaulieu-sous-la-Roche",
+    "slug": "beaulieu-sous-la-roche",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85190",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Beaulieu-sous-la-Roche",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Beaulieu-sous-la-Roche (85190).",
+    "description_longue": "Pour vos travaux de {metier} à Beaulieu-sous-la-Roche (85190), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Beaulieu-sous-la-Roche (85190) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Beaulieu-sous-la-Roche peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Beaulieu-sous-la-Roche ?",
+        "r": "Un professionnel basé à Beaulieu-sous-la-Roche connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "nom": "Commequiers",
+    "slug": "commequiers",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85220",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Commequiers",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Commequiers (85220).",
+    "description_longue": "Pour vos travaux de {metier} à Commequiers (85220), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Commequiers (85220) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Commequiers peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Commequiers ?",
+        "r": "Un professionnel basé à Commequiers connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "nom": "Coëx",
+    "slug": "coex",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85220",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Coëx",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Coëx (85220).",
+    "description_longue": "Pour vos travaux de {metier} à Coëx (85220), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Coëx (85220) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Coëx peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Coëx ?",
+        "r": "Un professionnel basé à Coëx connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "nom": "Saint-Mathurin",
+    "slug": "saint-mathurin",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85150",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Mathurin",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Mathurin (85150).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Mathurin (85150), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Mathurin (85150) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Mathurin peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Mathurin ?",
+        "r": "Un professionnel basé à Saint-Mathurin connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "nom": "Saint-Denis-la-Chevasse",
+    "slug": "saint-denis-la-chevasse",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85170",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Denis-la-Chevasse",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Denis-la-Chevasse (85170).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Denis-la-Chevasse (85170), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Denis-la-Chevasse (85170) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Denis-la-Chevasse peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Denis-la-Chevasse ?",
+        "r": "Un professionnel basé à Saint-Denis-la-Chevasse connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "nom": "Saint-Christophe-du-Ligneron",
+    "slug": "saint-christophe-du-ligneron",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85670",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Christophe-du-Ligneron",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Christophe-du-Ligneron (85670).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Christophe-du-Ligneron (85670), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Christophe-du-Ligneron (85670) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Christophe-du-Ligneron peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Christophe-du-Ligneron ?",
+        "r": "Un professionnel basé à Saint-Christophe-du-Ligneron connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "nom": "Fougeré",
+    "slug": "fougere",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85480",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Fougeré",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Fougeré (85480).",
+    "description_longue": "Pour vos travaux de {metier} à Fougeré (85480), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Fougeré (85480) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Fougeré peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Fougeré ?",
+        "r": "Un professionnel basé à Fougeré connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "nom": "Brem-sur-Mer",
+    "slug": "brem-sur-mer",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85470",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Brem-sur-Mer",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Brem-sur-Mer (85470).",
+    "description_longue": "Pour vos travaux de {metier} à Brem-sur-Mer (85470), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Brem-sur-Mer (85470) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Brem-sur-Mer peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Brem-sur-Mer ?",
+        "r": "Un professionnel basé à Brem-sur-Mer connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "nom": "La Mothe-Achard",
+    "slug": "la-mothe-achard",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85150",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de La Mothe-Achard",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à La Mothe-Achard (85150).",
+    "description_longue": "Pour vos travaux de {metier} à La Mothe-Achard (85150), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à La Mothe-Achard (85150) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à La Mothe-Achard peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à La Mothe-Achard ?",
+        "r": "Un professionnel basé à La Mothe-Achard connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "nom": "Saint-Florent-des-Bois",
+    "slug": "saint-florent-des-bois",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85310",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Florent-des-Bois",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Florent-des-Bois (85310).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Florent-des-Bois (85310), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Florent-des-Bois (85310) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Florent-des-Bois peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Florent-des-Bois ?",
+        "r": "Un professionnel basé à Saint-Florent-des-Bois connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "nom": "Dompierre-sur-Yon",
+    "slug": "dompierre-sur-yon",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85170",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Dompierre-sur-Yon",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Dompierre-sur-Yon (85170).",
+    "description_longue": "Pour vos travaux de {metier} à Dompierre-sur-Yon (85170), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Dompierre-sur-Yon (85170) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Dompierre-sur-Yon peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Dompierre-sur-Yon ?",
+        "r": "Un professionnel basé à Dompierre-sur-Yon connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "nom": "Rives-de-l'Yon",
+    "slug": "rives-de-lyon",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85310",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Rives-de-l'Yon",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Rives-de-l'Yon (85310).",
+    "description_longue": "Pour vos travaux de {metier} à Rives-de-l'Yon (85310), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Rives-de-l'Yon (85310) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Rives-de-l'Yon peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Rives-de-l'Yon ?",
+        "r": "Un professionnel basé à Rives-de-l'Yon connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "nom": "Les Lucs-sur-Boulogne",
+    "slug": "les-lucs-sur-boulogne",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85170",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Les Lucs-sur-Boulogne",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Les Lucs-sur-Boulogne (85170).",
+    "description_longue": "Pour vos travaux de {metier} à Les Lucs-sur-Boulogne (85170), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Les Lucs-sur-Boulogne (85170) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Les Lucs-sur-Boulogne peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Les Lucs-sur-Boulogne ?",
+        "r": "Un professionnel basé à Les Lucs-sur-Boulogne connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "nom": "Saint-Georges-de-Montaigu",
+    "slug": "saint-georges-de-montaigu",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85600",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Georges-de-Montaigu",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Georges-de-Montaigu (85600).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Georges-de-Montaigu (85600), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Georges-de-Montaigu (85600) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Georges-de-Montaigu peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Georges-de-Montaigu ?",
+        "r": "Un professionnel basé à Saint-Georges-de-Montaigu connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "nom": "Saint-Hilaire-de-Loulay",
+    "slug": "saint-hilaire-de-loulay",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85600",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Hilaire-de-Loulay",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Hilaire-de-Loulay (85600).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Hilaire-de-Loulay (85600), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Hilaire-de-Loulay (85600) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Hilaire-de-Loulay peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Hilaire-de-Loulay ?",
+        "r": "Un professionnel basé à Saint-Hilaire-de-Loulay connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "nom": "Chanverrie",
+    "slug": "chanverrie",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85500",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Chanverrie",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Chanverrie (85500).",
+    "description_longue": "Pour vos travaux de {metier} à Chanverrie (85500), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Chanverrie (85500) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Chanverrie peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Chanverrie ?",
+        "r": "Un professionnel basé à Chanverrie connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "nom": "Saint-Laurent-sur-Sèvre",
+    "slug": "saint-laurent-sur-sevre",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85290",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Laurent-sur-Sèvre",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Laurent-sur-Sèvre (85290).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Laurent-sur-Sèvre (85290), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Laurent-sur-Sèvre (85290) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Laurent-sur-Sèvre peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Laurent-sur-Sèvre ?",
+        "r": "Un professionnel basé à Saint-Laurent-sur-Sèvre connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "nom": "Le Perrier",
+    "slug": "le-perrier",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85300",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Le Perrier",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Le Perrier (85300).",
+    "description_longue": "Pour vos travaux de {metier} à Le Perrier (85300), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Le Perrier (85300) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Le Perrier peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Le Perrier ?",
+        "r": "Un professionnel basé à Le Perrier connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "nom": "Barbâtre",
+    "slug": "barbatre",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85630",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Barbâtre",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Barbâtre (85630).",
+    "description_longue": "Pour vos travaux de {metier} à Barbâtre (85630), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Barbâtre (85630) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Barbâtre peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Barbâtre ?",
+        "r": "Un professionnel basé à Barbâtre connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "nom": "L'Aiguillon-la-Presqu'île",
+    "slug": "laiguillon-la-presquile",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85460",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de L'Aiguillon-la-Presqu'île",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à L'Aiguillon-la-Presqu'île (85460).",
+    "description_longue": "Pour vos travaux de {metier} à L'Aiguillon-la-Presqu'île (85460), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à L'Aiguillon-la-Presqu'île (85460) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à L'Aiguillon-la-Presqu'île peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à L'Aiguillon-la-Presqu'île ?",
+        "r": "Un professionnel basé à L'Aiguillon-la-Presqu'île connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "nom": "Saint-Michel-en-l'Herm",
+    "slug": "saint-michel-en-lherm",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85580",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Michel-en-l'Herm",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Michel-en-l'Herm (85580).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Michel-en-l'Herm (85580), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Michel-en-l'Herm (85580) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Michel-en-l'Herm peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Michel-en-l'Herm ?",
+        "r": "Un professionnel basé à Saint-Michel-en-l'Herm connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "nom": "La Faute-sur-Mer",
+    "slug": "la-faute-sur-mer",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85460",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de La Faute-sur-Mer",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à La Faute-sur-Mer (85460).",
+    "description_longue": "Pour vos travaux de {metier} à La Faute-sur-Mer (85460), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à La Faute-sur-Mer (85460) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à La Faute-sur-Mer peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à La Faute-sur-Mer ?",
+        "r": "Un professionnel basé à La Faute-sur-Mer connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "nom": "Jard-sur-Mer",
+    "slug": "jard-sur-mer",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85520",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Jard-sur-Mer",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Jard-sur-Mer (85520).",
+    "description_longue": "Pour vos travaux de {metier} à Jard-sur-Mer (85520), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Jard-sur-Mer (85520) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Jard-sur-Mer peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Jard-sur-Mer ?",
+        "r": "Un professionnel basé à Jard-sur-Mer connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "nom": "Saint-Vincent-sur-Graon",
+    "slug": "saint-vincent-sur-graon",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85540",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Vincent-sur-Graon",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Vincent-sur-Graon (85540).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Vincent-sur-Graon (85540), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Vincent-sur-Graon (85540) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Vincent-sur-Graon peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Vincent-sur-Graon ?",
+        "r": "Un professionnel basé à Saint-Vincent-sur-Graon connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "nom": "Le Champ-Saint-Père",
+    "slug": "le-champ-saint-pere",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85540",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Le Champ-Saint-Père",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Le Champ-Saint-Père (85540).",
+    "description_longue": "Pour vos travaux de {metier} à Le Champ-Saint-Père (85540), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Le Champ-Saint-Père (85540) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Le Champ-Saint-Père peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Le Champ-Saint-Père ?",
+        "r": "Un professionnel basé à Le Champ-Saint-Père connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "nom": "Saint-Gervais",
+    "slug": "saint-gervais",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85230",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Gervais",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Gervais (85230).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Gervais (85230), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Gervais (85230) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Gervais peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Gervais ?",
+        "r": "Un professionnel basé à Saint-Gervais connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "nom": "Saint-Urbain",
+    "slug": "saint-urbain",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85230",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Urbain",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Urbain (85230).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Urbain (85230), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Urbain (85230) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Urbain peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Urbain ?",
+        "r": "Un professionnel basé à Saint-Urbain connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "nom": "Palluau",
+    "slug": "palluau",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85670",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Palluau",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Palluau (85670).",
+    "description_longue": "Pour vos travaux de {metier} à Palluau (85670), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Palluau (85670) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Palluau peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Palluau ?",
+        "r": "Un professionnel basé à Palluau connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "nom": "La Meilleraie-Tillay",
+    "slug": "la-meilleraie-tillay",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85700",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de La Meilleraie-Tillay",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à La Meilleraie-Tillay (85700).",
+    "description_longue": "Pour vos travaux de {metier} à La Meilleraie-Tillay (85700), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à La Meilleraie-Tillay (85700) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à La Meilleraie-Tillay peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à La Meilleraie-Tillay ?",
+        "r": "Un professionnel basé à La Meilleraie-Tillay connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "nom": "Bazoges-en-Pareds",
+    "slug": "bazoges-en-pareds",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85390",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Bazoges-en-Pareds",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Bazoges-en-Pareds (85390).",
+    "description_longue": "Pour vos travaux de {metier} à Bazoges-en-Pareds (85390), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Bazoges-en-Pareds (85390) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Bazoges-en-Pareds peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Bazoges-en-Pareds ?",
+        "r": "Un professionnel basé à Bazoges-en-Pareds connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "nom": "La Châtaigneraie",
+    "slug": "la-chataigneraie",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85120",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de La Châtaigneraie",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à La Châtaigneraie (85120).",
+    "description_longue": "Pour vos travaux de {metier} à La Châtaigneraie (85120), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à La Châtaigneraie (85120) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à La Châtaigneraie peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à La Châtaigneraie ?",
+        "r": "Un professionnel basé à La Châtaigneraie connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "nom": "La Tardière",
+    "slug": "la-tardiere",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85120",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de La Tardière",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à La Tardière (85120).",
+    "description_longue": "Pour vos travaux de {metier} à La Tardière (85120), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à La Tardière (85120) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à La Tardière peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à La Tardière ?",
+        "r": "Un professionnel basé à La Tardière connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "nom": "Saint-Pierre-du-Chemin",
+    "slug": "saint-pierre-du-chemin",
+    "departement": "Vendée",
+    "code_departement": "85",
+    "code_postal": "85120",
+    "population": null,
+    "zone_desservie": "Jusqu’à 30 km autour de Saint-Pierre-du-Chemin",
+    "description_courte": "Obtenez un devis pour vos travaux de {metier} à Saint-Pierre-du-Chemin (85120).",
+    "description_longue": "Pour vos travaux de {metier} à Saint-Pierre-du-Chemin (85120), comparez plusieurs devis d’artisans locaux en Vendée (85) et choisissez la meilleure offre.",
+    "faq": [
+      {
+        "q": "Quels sont les délais pour trouver un artisan {metier} à Saint-Pierre-du-Chemin (85120) ?",
+        "r": "Selon la saison et le type de chantier, un artisan {metier} à Saint-Pierre-du-Chemin peut intervenir sous 1 à 3 semaines en moyenne."
+      },
+      {
+        "q": "Pourquoi choisir un artisan local pour vos travaux de {metier} à Saint-Pierre-du-Chemin ?",
+        "r": "Un professionnel basé à Saint-Pierre-du-Chemin connaît les fournisseurs locaux, réduit les déplacements et intervient plus rapidement."
+      }
+    ]
+  }
+]

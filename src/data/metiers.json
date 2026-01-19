@@ -1,0 +1,4466 @@
+[
+  {
+    "id": 1,
+    "nom": "Fenêtres",
+    "slug": "fenetres",
+    "description_courte": "Travaux de fenêtres adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en fenêtres interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de fenêtres",
+      "Rénovation de fenêtres",
+      "Entretien et réparation de fenêtres"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "150 à 400 €",
+    "unite_prix": "par fenêtre posée",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 150 à 400 € par fenêtre posée."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nom": "Portes d’entrée",
+    "slug": "portes-dentree",
+    "description_courte": "Travaux de portes d’entrée adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en portes d’entrée interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de portes d’entrée",
+      "Rénovation de portes d’entrée",
+      "Entretien et réparation de portes d’entrée"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "300 à 1 200 €",
+    "unite_prix": "par porte posée",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 300 à 1 200 € par porte posée."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nom": "Portes de garage",
+    "slug": "portes-de-garage",
+    "description_courte": "Travaux de portes de garage adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en portes de garage interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de portes de garage",
+      "Rénovation de portes de garage",
+      "Entretien et réparation de portes de garage"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "800 à 3 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 800 à 3 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nom": "Volets roulants",
+    "slug": "volets-roulants",
+    "description_courte": "Travaux de volets roulants adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en volets roulants interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de volets roulants",
+      "Rénovation de volets roulants",
+      "Entretien et réparation de volets roulants"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "200 à 800 €",
+    "unite_prix": "par volet",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 200 à 800 € par volet."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nom": "Portails",
+    "slug": "portails",
+    "description_courte": "Travaux de portails adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en portails interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de portails",
+      "Rénovation de portails",
+      "Entretien et réparation de portails"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "1 000 à 4 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 1 000 à 4 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nom": "Velux & fenêtres de toit",
+    "slug": "velux-fenetres-de-toit",
+    "description_courte": "Travaux de velux & fenêtres de toit adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en velux & fenêtres de toit interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de velux & fenêtres de toit",
+      "Rénovation de velux & fenêtres de toit",
+      "Entretien et réparation de velux & fenêtres de toit"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "500 à 1 200 €",
+    "unite_prix": "par fenêtre",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 500 à 1 200 € par fenêtre."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nom": "Menuiserie bois",
+    "slug": "menuiserie-bois",
+    "description_courte": "Travaux de menuiserie bois adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en menuiserie bois interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de menuiserie bois",
+      "Rénovation de menuiserie bois",
+      "Entretien et réparation de menuiserie bois"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "200 à 600 €",
+    "unite_prix": "par élément",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 200 à 600 € par élément."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nom": "Menuiserie aluminium",
+    "slug": "menuiserie-aluminium",
+    "description_courte": "Travaux de menuiserie aluminium adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en menuiserie aluminium interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de menuiserie aluminium",
+      "Rénovation de menuiserie aluminium",
+      "Entretien et réparation de menuiserie aluminium"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "300 à 700 €",
+    "unite_prix": "par élément",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 300 à 700 € par élément."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nom": "Menuiserie PVC",
+    "slug": "menuiserie-pvc",
+    "description_courte": "Travaux de menuiserie pvc adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en menuiserie pvc interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de menuiserie pvc",
+      "Rénovation de menuiserie pvc",
+      "Entretien et réparation de menuiserie pvc"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "150 à 400 €",
+    "unite_prix": "par élément",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 150 à 400 € par élément."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "nom": "Couvreur",
+    "slug": "couvreur",
+    "description_courte": "Travaux de couvreur adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en couvreur interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de couvreur",
+      "Rénovation de couvreur",
+      "Entretien et réparation de couvreur"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "80 à 200 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 80 à 200 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nom": "Zingueur",
+    "slug": "zingueur",
+    "description_courte": "Travaux de zingueur adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en zingueur interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de zingueur",
+      "Rénovation de zingueur",
+      "Entretien et réparation de zingueur"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "50 à 150 €",
+    "unite_prix": "par mètre",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 50 à 150 € par mètre."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "nom": "Démoussage toiture",
+    "slug": "demoussage-toiture",
+    "description_courte": "Travaux de démoussage toiture adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en démoussage toiture interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de démoussage toiture",
+      "Rénovation de démoussage toiture",
+      "Entretien et réparation de démoussage toiture"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "15 à 30 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 15 à 30 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "nom": "Étanchéité toit terrasse",
+    "slug": "etancheite-toit-terrasse",
+    "description_courte": "Travaux de étanchéité toit terrasse adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en étanchéité toit terrasse interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de étanchéité toit terrasse",
+      "Rénovation de étanchéité toit terrasse",
+      "Entretien et réparation de étanchéité toit terrasse"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "40 à 100 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 40 à 100 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "nom": "Charpente traditionnelle",
+    "slug": "charpente-traditionnelle",
+    "description_courte": "Travaux de charpente traditionnelle adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en charpente traditionnelle interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de charpente traditionnelle",
+      "Rénovation de charpente traditionnelle",
+      "Entretien et réparation de charpente traditionnelle"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "60 à 120 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 60 à 120 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "nom": "Charpente fermette",
+    "slug": "charpente-fermette",
+    "description_courte": "Travaux de charpente fermette adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en charpente fermette interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de charpente fermette",
+      "Rénovation de charpente fermette",
+      "Entretien et réparation de charpente fermette"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "50 à 100 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 50 à 100 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "nom": "Isolation des combles",
+    "slug": "isolation-des-combles",
+    "description_courte": "Travaux de isolation des combles adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en isolation des combles interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de isolation des combles",
+      "Rénovation de isolation des combles",
+      "Entretien et réparation de isolation des combles"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "20 à 50 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 20 à 50 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "nom": "Isolation par l’extérieur",
+    "slug": "isolation-par-lexterieur",
+    "description_courte": "Travaux de isolation par l’extérieur adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en isolation par l’extérieur interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de isolation par l’extérieur",
+      "Rénovation de isolation par l’extérieur",
+      "Entretien et réparation de isolation par l’extérieur"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "50 à 120 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 50 à 120 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "nom": "Isolation phonique",
+    "slug": "isolation-phonique",
+    "description_courte": "Travaux de isolation phonique adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en isolation phonique interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de isolation phonique",
+      "Rénovation de isolation phonique",
+      "Entretien et réparation de isolation phonique"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "30 à 80 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 30 à 80 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "nom": "Isolation plancher bas",
+    "slug": "isolation-plancher-bas",
+    "description_courte": "Travaux de isolation plancher bas adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en isolation plancher bas interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de isolation plancher bas",
+      "Rénovation de isolation plancher bas",
+      "Entretien et réparation de isolation plancher bas"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "25 à 60 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 25 à 60 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "nom": "Pompe à chaleur air/eau",
+    "slug": "pompe-a-chaleur-air-eau",
+    "description_courte": "Travaux de pompe à chaleur air/eau adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en pompe à chaleur air/eau interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de pompe à chaleur air/eau",
+      "Rénovation de pompe à chaleur air/eau",
+      "Entretien et réparation de pompe à chaleur air/eau"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "8 000 à 15 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 8 000 à 15 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "nom": "Pompe à chaleur air/air",
+    "slug": "pompe-a-chaleur-air-air",
+    "description_courte": "Travaux de pompe à chaleur air/air adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en pompe à chaleur air/air interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de pompe à chaleur air/air",
+      "Rénovation de pompe à chaleur air/air",
+      "Entretien et réparation de pompe à chaleur air/air"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "6 000 à 12 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 6 000 à 12 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "nom": "Chaudière gaz",
+    "slug": "chaudiere-gaz",
+    "description_courte": "Travaux de chaudière gaz adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en chaudière gaz interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de chaudière gaz",
+      "Rénovation de chaudière gaz",
+      "Entretien et réparation de chaudière gaz"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "2 500 à 6 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 2 500 à 6 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "nom": "Chaudière bois",
+    "slug": "chaudiere-bois",
+    "description_courte": "Travaux de chaudière bois adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en chaudière bois interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de chaudière bois",
+      "Rénovation de chaudière bois",
+      "Entretien et réparation de chaudière bois"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "4 000 à 12 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 4 000 à 12 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "nom": "Poêle à bois",
+    "slug": "poele-a-bois",
+    "description_courte": "Travaux de poêle à bois adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en poêle à bois interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de poêle à bois",
+      "Rénovation de poêle à bois",
+      "Entretien et réparation de poêle à bois"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "1 500 à 4 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 1 500 à 4 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "nom": "Poêle à granulés",
+    "slug": "poele-a-granules",
+    "description_courte": "Travaux de poêle à granulés adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en poêle à granulés interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de poêle à granulés",
+      "Rénovation de poêle à granulés",
+      "Entretien et réparation de poêle à granulés"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "2 000 à 6 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 2 000 à 6 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "nom": "Climatisation réversible",
+    "slug": "climatisation-reversible",
+    "description_courte": "Travaux de climatisation réversible adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en climatisation réversible interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de climatisation réversible",
+      "Rénovation de climatisation réversible",
+      "Entretien et réparation de climatisation réversible"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "1 500 à 5 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 1 500 à 5 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "nom": "Climatisation gainable",
+    "slug": "climatisation-gainable",
+    "description_courte": "Travaux de climatisation gainable adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en climatisation gainable interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de climatisation gainable",
+      "Rénovation de climatisation gainable",
+      "Entretien et réparation de climatisation gainable"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "3 000 à 8 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 3 000 à 8 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "nom": "Plancher chauffant",
+    "slug": "plancher-chauffant",
+    "description_courte": "Travaux de plancher chauffant adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en plancher chauffant interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de plancher chauffant",
+      "Rénovation de plancher chauffant",
+      "Entretien et réparation de plancher chauffant"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "70 à 120 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 70 à 120 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "nom": "Radiateurs électriques",
+    "slug": "radiateurs-electriques",
+    "description_courte": "Travaux de radiateurs électriques adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en radiateurs électriques interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de radiateurs électriques",
+      "Rénovation de radiateurs électriques",
+      "Entretien et réparation de radiateurs électriques"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "200 à 800 €",
+    "unite_prix": "par radiateur",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 200 à 800 € par radiateur."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "nom": "Panneaux photovoltaïques",
+    "slug": "panneaux-photovoltaiques",
+    "description_courte": "Travaux de panneaux photovoltaïques adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en panneaux photovoltaïques interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de panneaux photovoltaïques",
+      "Rénovation de panneaux photovoltaïques",
+      "Entretien et réparation de panneaux photovoltaïques"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "6 000 à 12 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 6 000 à 12 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "nom": "Chauffe-eau solaire",
+    "slug": "chauffe-eau-solaire",
+    "description_courte": "Travaux de chauffe-eau solaire adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en chauffe-eau solaire interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de chauffe-eau solaire",
+      "Rénovation de chauffe-eau solaire",
+      "Entretien et réparation de chauffe-eau solaire"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "3 000 à 7 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 3 000 à 7 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "nom": "Solaire thermique",
+    "slug": "solaire-thermique",
+    "description_courte": "Travaux de solaire thermique adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en solaire thermique interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de solaire thermique",
+      "Rénovation de solaire thermique",
+      "Entretien et réparation de solaire thermique"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "4 000 à 8 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 4 000 à 8 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "nom": "Éolienne domestique",
+    "slug": "eolienne-domestique",
+    "description_courte": "Travaux de éolienne domestique adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en éolienne domestique interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de éolienne domestique",
+      "Rénovation de éolienne domestique",
+      "Entretien et réparation de éolienne domestique"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "10 000 à 25 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 10 000 à 25 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "nom": "Chauffage géothermique",
+    "slug": "chauffage-geothermique",
+    "description_courte": "Travaux de chauffage géothermique adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en chauffage géothermique interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de chauffage géothermique",
+      "Rénovation de chauffage géothermique",
+      "Entretien et réparation de chauffage géothermique"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "15 000 à 25 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 15 000 à 25 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "nom": "Salle de bains",
+    "slug": "salle-de-bains",
+    "description_courte": "Travaux de salle de bains adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en salle de bains interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de salle de bains",
+      "Rénovation de salle de bains",
+      "Entretien et réparation de salle de bains"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "3 000 à 12 000 €",
+    "unite_prix": "par salle de bains",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 3 000 à 12 000 € par salle de bains."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "nom": "Douche italienne",
+    "slug": "douche-italienne",
+    "description_courte": "Travaux de douche italienne adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en douche italienne interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de douche italienne",
+      "Rénovation de douche italienne",
+      "Entretien et réparation de douche italienne"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "2 000 à 6 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 2 000 à 6 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "nom": "Douche senior",
+    "slug": "douche-senior",
+    "description_courte": "Travaux de douche senior adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en douche senior interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de douche senior",
+      "Rénovation de douche senior",
+      "Entretien et réparation de douche senior"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "3 000 à 7 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 3 000 à 7 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "nom": "Baignoire à porte",
+    "slug": "baignoire-a-porte",
+    "description_courte": "Travaux de baignoire à porte adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en baignoire à porte interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de baignoire à porte",
+      "Rénovation de baignoire à porte",
+      "Entretien et réparation de baignoire à porte"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "2 500 à 6 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 2 500 à 6 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "nom": "Cuisine équipée",
+    "slug": "cuisine-equipee",
+    "description_courte": "Travaux de cuisine équipée adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en cuisine équipée interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de cuisine équipée",
+      "Rénovation de cuisine équipée",
+      "Entretien et réparation de cuisine équipée"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "5 000 à 15 000 €",
+    "unite_prix": "par cuisine",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 5 000 à 15 000 € par cuisine."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "nom": "Plomberie",
+    "slug": "plomberie",
+    "description_courte": "Travaux de plomberie adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en plomberie interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de plomberie",
+      "Rénovation de plomberie",
+      "Entretien et réparation de plomberie"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "40 à 70 €",
+    "unite_prix": "par heure",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 40 à 70 € par heure."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "nom": "Électricité",
+    "slug": "electricite",
+    "description_courte": "Travaux de électricité adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en électricité interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de électricité",
+      "Rénovation de électricité",
+      "Entretien et réparation de électricité"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "45 à 75 €",
+    "unite_prix": "par heure",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 45 à 75 € par heure."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "nom": "Câblage informatique",
+    "slug": "cablage-informatique",
+    "description_courte": "Travaux de câblage informatique adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en câblage informatique interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de câblage informatique",
+      "Rénovation de câblage informatique",
+      "Entretien et réparation de câblage informatique"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "40 à 80 €",
+    "unite_prix": "par prise",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 40 à 80 € par prise."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "nom": "Peinture intérieure",
+    "slug": "peinture-interieure",
+    "description_courte": "Travaux de peinture intérieure adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en peinture intérieure interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de peinture intérieure",
+      "Rénovation de peinture intérieure",
+      "Entretien et réparation de peinture intérieure"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "20 à 35 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 20 à 35 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "nom": "Peinture extérieure",
+    "slug": "peinture-exterieure",
+    "description_courte": "Travaux de peinture extérieure adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en peinture extérieure interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de peinture extérieure",
+      "Rénovation de peinture extérieure",
+      "Entretien et réparation de peinture extérieure"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "25 à 40 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 25 à 40 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "nom": "Carrelage",
+    "slug": "carrelage",
+    "description_courte": "Travaux de carrelage adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en carrelage interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de carrelage",
+      "Rénovation de carrelage",
+      "Entretien et réparation de carrelage"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "30 à 60 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 30 à 60 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "nom": "Parquet",
+    "slug": "parquet",
+    "description_courte": "Travaux de parquet adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en parquet interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de parquet",
+      "Rénovation de parquet",
+      "Entretien et réparation de parquet"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "25 à 80 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 25 à 80 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "nom": "Faux plafonds",
+    "slug": "faux-plafonds",
+    "description_courte": "Travaux de faux plafonds adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en faux plafonds interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de faux plafonds",
+      "Rénovation de faux plafonds",
+      "Entretien et réparation de faux plafonds"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "30 à 60 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 30 à 60 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "nom": "Cloisons & plâtrerie",
+    "slug": "cloisons-platrerie",
+    "description_courte": "Travaux de cloisons & plâtrerie adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en cloisons & plâtrerie interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de cloisons & plâtrerie",
+      "Rénovation de cloisons & plâtrerie",
+      "Entretien et réparation de cloisons & plâtrerie"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "35 à 55 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 35 à 55 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "nom": "Dressing & rangements",
+    "slug": "dressing-rangements",
+    "description_courte": "Travaux de dressing & rangements adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en dressing & rangements interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de dressing & rangements",
+      "Rénovation de dressing & rangements",
+      "Entretien et réparation de dressing & rangements"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "1 000 à 5 000 €",
+    "unite_prix": "par aménagement",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 1 000 à 5 000 € par aménagement."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "nom": "Piscine coque",
+    "slug": "piscine-coque",
+    "description_courte": "Travaux de piscine coque adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en piscine coque interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de piscine coque",
+      "Rénovation de piscine coque",
+      "Entretien et réparation de piscine coque"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "10 000 à 18 000 €",
+    "unite_prix": "par piscine",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 10 000 à 18 000 € par piscine."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "nom": "Piscine béton",
+    "slug": "piscine-beton",
+    "description_courte": "Travaux de piscine béton adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en piscine béton interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de piscine béton",
+      "Rénovation de piscine béton",
+      "Entretien et réparation de piscine béton"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "15 000 à 25 000 €",
+    "unite_prix": "par piscine",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 15 000 à 25 000 € par piscine."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "nom": "Piscine en kit",
+    "slug": "piscine-en-kit",
+    "description_courte": "Travaux de piscine en kit adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en piscine en kit interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de piscine en kit",
+      "Rénovation de piscine en kit",
+      "Entretien et réparation de piscine en kit"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "5 000 à 10 000 €",
+    "unite_prix": "par piscine",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 5 000 à 10 000 € par piscine."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "nom": "Abris de piscine",
+    "slug": "abris-de-piscine",
+    "description_courte": "Travaux de abris de piscine adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en abris de piscine interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de abris de piscine",
+      "Rénovation de abris de piscine",
+      "Entretien et réparation de abris de piscine"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "3 000 à 12 000 €",
+    "unite_prix": "par abri",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 3 000 à 12 000 € par abri."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "nom": "Terrasse bois",
+    "slug": "terrasse-bois",
+    "description_courte": "Travaux de terrasse bois adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en terrasse bois interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de terrasse bois",
+      "Rénovation de terrasse bois",
+      "Entretien et réparation de terrasse bois"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "80 à 200 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 80 à 200 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "nom": "Terrasse béton",
+    "slug": "terrasse-beton",
+    "description_courte": "Travaux de terrasse béton adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en terrasse béton interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de terrasse béton",
+      "Rénovation de terrasse béton",
+      "Entretien et réparation de terrasse béton"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "70 à 150 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 70 à 150 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "nom": "Terrasse carrelée",
+    "slug": "terrasse-carrelee",
+    "description_courte": "Travaux de terrasse carrelée adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en terrasse carrelée interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de terrasse carrelée",
+      "Rénovation de terrasse carrelée",
+      "Entretien et réparation de terrasse carrelée"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "60 à 120 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 60 à 120 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "nom": "Pergola bioclimatique",
+    "slug": "pergola-bioclimatique",
+    "description_courte": "Travaux de pergola bioclimatique adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en pergola bioclimatique interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de pergola bioclimatique",
+      "Rénovation de pergola bioclimatique",
+      "Entretien et réparation de pergola bioclimatique"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "6 000 à 15 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 6 000 à 15 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "nom": "Carport",
+    "slug": "carport",
+    "description_courte": "Travaux de carport adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en carport interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de carport",
+      "Rénovation de carport",
+      "Entretien et réparation de carport"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "3 000 à 8 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 3 000 à 8 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "nom": "Clôture grillagée",
+    "slug": "cloture-grillagee",
+    "description_courte": "Travaux de clôture grillagée adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en clôture grillagée interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de clôture grillagée",
+      "Rénovation de clôture grillagée",
+      "Entretien et réparation de clôture grillagée"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "20 à 60 €",
+    "unite_prix": "par mètre",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 20 à 60 € par mètre."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "nom": "Clôture rigide",
+    "slug": "cloture-rigide",
+    "description_courte": "Travaux de clôture rigide adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en clôture rigide interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de clôture rigide",
+      "Rénovation de clôture rigide",
+      "Entretien et réparation de clôture rigide"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "50 à 150 €",
+    "unite_prix": "par mètre",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 50 à 150 € par mètre."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "nom": "Mur de clôture",
+    "slug": "mur-de-cloture",
+    "description_courte": "Travaux de mur de clôture adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en mur de clôture interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de mur de clôture",
+      "Rénovation de mur de clôture",
+      "Entretien et réparation de mur de clôture"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "100 à 250 €",
+    "unite_prix": "par mètre",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 100 à 250 € par mètre."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "nom": "Portail motorisé",
+    "slug": "portail-motorise",
+    "description_courte": "Travaux de portail motorisé adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en portail motorisé interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de portail motorisé",
+      "Rénovation de portail motorisé",
+      "Entretien et réparation de portail motorisé"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "1 500 à 5 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 1 500 à 5 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "nom": "Paysagiste",
+    "slug": "paysagiste",
+    "description_courte": "Travaux de paysagiste adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en paysagiste interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de paysagiste",
+      "Rénovation de paysagiste",
+      "Entretien et réparation de paysagiste"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "35 à 60 €",
+    "unite_prix": "par heure",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 35 à 60 € par heure."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "nom": "Élagage",
+    "slug": "elagage",
+    "description_courte": "Travaux de élagage adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en élagage interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de élagage",
+      "Rénovation de élagage",
+      "Entretien et réparation de élagage"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "200 à 600 €",
+    "unite_prix": "par arbre",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 200 à 600 € par arbre."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "nom": "Abattage d’arbres",
+    "slug": "abattage-darbres",
+    "description_courte": "Travaux de abattage d’arbres adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en abattage d’arbres interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de abattage d’arbres",
+      "Rénovation de abattage d’arbres",
+      "Entretien et réparation de abattage d’arbres"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "300 à 800 €",
+    "unite_prix": "par arbre",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 300 à 800 € par arbre."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "nom": "Allées pavées",
+    "slug": "allees-pavees",
+    "description_courte": "Travaux de allées pavées adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en allées pavées interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de allées pavées",
+      "Rénovation de allées pavées",
+      "Entretien et réparation de allées pavées"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "40 à 100 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 40 à 100 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "nom": "Allées enrobé",
+    "slug": "allees-enrobe",
+    "description_courte": "Travaux de allées enrobé adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en allées enrobé interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de allées enrobé",
+      "Rénovation de allées enrobé",
+      "Entretien et réparation de allées enrobé"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "20 à 60 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 20 à 60 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "nom": "Serrurerie",
+    "slug": "serrurerie",
+    "description_courte": "Travaux de serrurerie adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en serrurerie interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de serrurerie",
+      "Rénovation de serrurerie",
+      "Entretien et réparation de serrurerie"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "120 à 250 €",
+    "unite_prix": "par intervention",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 120 à 250 € par intervention."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "nom": "Porte blindée",
+    "slug": "porte-blindee",
+    "description_courte": "Travaux de porte blindée adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en porte blindée interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de porte blindée",
+      "Rénovation de porte blindée",
+      "Entretien et réparation de porte blindée"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "1 200 à 4 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 1 200 à 4 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "nom": "Alarme intrusion",
+    "slug": "alarme-intrusion",
+    "description_courte": "Travaux de alarme intrusion adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en alarme intrusion interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de alarme intrusion",
+      "Rénovation de alarme intrusion",
+      "Entretien et réparation de alarme intrusion"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "800 à 3 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 800 à 3 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "nom": "Vidéosurveillance",
+    "slug": "videosurveillance",
+    "description_courte": "Travaux de vidéosurveillance adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en vidéosurveillance interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de vidéosurveillance",
+      "Rénovation de vidéosurveillance",
+      "Entretien et réparation de vidéosurveillance"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "1 000 à 4 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 1 000 à 4 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "nom": "Interphone & visiophone",
+    "slug": "interphone-visiophone",
+    "description_courte": "Travaux de interphone & visiophone adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en interphone & visiophone interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de interphone & visiophone",
+      "Rénovation de interphone & visiophone",
+      "Entretien et réparation de interphone & visiophone"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "500 à 2 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 500 à 2 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "nom": "Domotique maison",
+    "slug": "domotique-maison",
+    "description_courte": "Travaux de domotique maison adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en domotique maison interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de domotique maison",
+      "Rénovation de domotique maison",
+      "Entretien et réparation de domotique maison"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "2 000 à 6 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 2 000 à 6 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "nom": "Télésurveillance",
+    "slug": "telesurveillance",
+    "description_courte": "Travaux de télésurveillance adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en télésurveillance interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de télésurveillance",
+      "Rénovation de télésurveillance",
+      "Entretien et réparation de télésurveillance"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "20 à 50 €",
+    "unite_prix": "par mois",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 20 à 50 € par mois."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "nom": "Monte-escalier",
+    "slug": "monte-escalier",
+    "description_courte": "Travaux de monte-escalier adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en monte-escalier interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de monte-escalier",
+      "Rénovation de monte-escalier",
+      "Entretien et réparation de monte-escalier"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "3 000 à 8 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 3 000 à 8 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "nom": "Ascenseur particulier",
+    "slug": "ascenseur-particulier",
+    "description_courte": "Travaux de ascenseur particulier adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en ascenseur particulier interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de ascenseur particulier",
+      "Rénovation de ascenseur particulier",
+      "Entretien et réparation de ascenseur particulier"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "15 000 à 30 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 15 000 à 30 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "nom": "Accessibilité PMR",
+    "slug": "accessibilite-pmr",
+    "description_courte": "Travaux de accessibilité pmr adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en accessibilité pmr interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de accessibilité pmr",
+      "Rénovation de accessibilité pmr",
+      "Entretien et réparation de accessibilité pmr"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "2 000 à 10 000 €",
+    "unite_prix": "par aménagement",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 2 000 à 10 000 € par aménagement."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "nom": "Ramonage",
+    "slug": "ramonage",
+    "description_courte": "Travaux de ramonage adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en ramonage interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de ramonage",
+      "Rénovation de ramonage",
+      "Entretien et réparation de ramonage"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "50 à 100 €",
+    "unite_prix": "par intervention",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 50 à 100 € par intervention."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "nom": "Entretien chaudière",
+    "slug": "entretien-chaudiere",
+    "description_courte": "Travaux de entretien chaudière adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en entretien chaudière interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de entretien chaudière",
+      "Rénovation de entretien chaudière",
+      "Entretien et réparation de entretien chaudière"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "100 à 250 €",
+    "unite_prix": "par entretien",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 100 à 250 € par entretien."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "nom": "Entretien pompe à chaleur",
+    "slug": "entretien-pompe-a-chaleur",
+    "description_courte": "Travaux de entretien pompe à chaleur adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en entretien pompe à chaleur interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de entretien pompe à chaleur",
+      "Rénovation de entretien pompe à chaleur",
+      "Entretien et réparation de entretien pompe à chaleur"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "150 à 300 €",
+    "unite_prix": "par entretien",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 150 à 300 € par entretien."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "nom": "Nettoyage toiture",
+    "slug": "nettoyage-toiture",
+    "description_courte": "Travaux de nettoyage toiture adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en nettoyage toiture interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de nettoyage toiture",
+      "Rénovation de nettoyage toiture",
+      "Entretien et réparation de nettoyage toiture"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "15 à 30 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 15 à 30 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "nom": "Traitement humidité",
+    "slug": "traitement-humidite",
+    "description_courte": "Travaux de traitement humidité adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en traitement humidité interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de traitement humidité",
+      "Rénovation de traitement humidité",
+      "Entretien et réparation de traitement humidité"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "1 000 à 5 000 €",
+    "unite_prix": "par traitement",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 1 000 à 5 000 € par traitement."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "nom": "Traitement charpente",
+    "slug": "traitement-charpente",
+    "description_courte": "Travaux de traitement charpente adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en traitement charpente interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de traitement charpente",
+      "Rénovation de traitement charpente",
+      "Entretien et réparation de traitement charpente"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "1 500 à 4 000 €",
+    "unite_prix": "par traitement",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 1 500 à 4 000 € par traitement."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "nom": "DPE",
+    "slug": "dpe",
+    "description_courte": "Travaux de dpe adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en dpe interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de dpe",
+      "Rénovation de dpe",
+      "Entretien et réparation de dpe"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "100 à 250 €",
+    "unite_prix": "par diagnostic",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 100 à 250 € par diagnostic."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "nom": "Diagnostic amiante",
+    "slug": "diagnostic-amiante",
+    "description_courte": "Travaux de diagnostic amiante adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en diagnostic amiante interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de diagnostic amiante",
+      "Rénovation de diagnostic amiante",
+      "Entretien et réparation de diagnostic amiante"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "80 à 200 €",
+    "unite_prix": "par diagnostic",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 80 à 200 € par diagnostic."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "nom": "Diagnostic plomb",
+    "slug": "diagnostic-plomb",
+    "description_courte": "Travaux de diagnostic plomb adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en diagnostic plomb interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de diagnostic plomb",
+      "Rénovation de diagnostic plomb",
+      "Entretien et réparation de diagnostic plomb"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "90 à 250 €",
+    "unite_prix": "par diagnostic",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 90 à 250 € par diagnostic."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "nom": "Expert bâtiment",
+    "slug": "expert-batiment",
+    "description_courte": "Travaux de expert bâtiment adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en expert bâtiment interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de expert bâtiment",
+      "Rénovation de expert bâtiment",
+      "Entretien et réparation de expert bâtiment"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "500 à 2 000 €",
+    "unite_prix": "par expertise",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 500 à 2 000 € par expertise."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "nom": "Étude de sol",
+    "slug": "etude-de-sol",
+    "description_courte": "Travaux de étude de sol adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en étude de sol interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de étude de sol",
+      "Rénovation de étude de sol",
+      "Entretien et réparation de étude de sol"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "1 000 à 3 000 €",
+    "unite_prix": "par étude",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 1 000 à 3 000 € par étude."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "nom": "Démolition",
+    "slug": "demolition",
+    "description_courte": "Travaux de démolition adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en démolition interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de démolition",
+      "Rénovation de démolition",
+      "Entretien et réparation de démolition"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "30 à 80 €",
+    "unite_prix": "par m²",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 30 à 80 € par m²."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "nom": "Terrassement",
+    "slug": "terrassement",
+    "description_courte": "Travaux de terrassement adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en terrassement interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de terrassement",
+      "Rénovation de terrassement",
+      "Entretien et réparation de terrassement"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "30 à 60 €",
+    "unite_prix": "par m³",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 30 à 60 € par m³."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "nom": "Fondations",
+    "slug": "fondations",
+    "description_courte": "Travaux de fondations adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en fondations interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de fondations",
+      "Rénovation de fondations",
+      "Entretien et réparation de fondations"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "100 à 200 €",
+    "unite_prix": "par m³",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 100 à 200 € par m³."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "nom": "Assainissement individuel",
+    "slug": "assainissement-individuel",
+    "description_courte": "Travaux de assainissement individuel adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en assainissement individuel interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de assainissement individuel",
+      "Rénovation de assainissement individuel",
+      "Entretien et réparation de assainissement individuel"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "3 000 à 10 000 €",
+    "unite_prix": "par installation",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 3 000 à 10 000 € par installation."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "nom": "VRD",
+    "slug": "vrd",
+    "description_courte": "Travaux de vrd adaptés à vos besoins.",
+    "description_longue": "Les artisans spécialisés en vrd interviennent à {ville} pour des prestations de qualité, conformes aux normes en vigueur et adaptées aux besoins des particuliers et professionnels en {departement}.",
+    "services": [
+      "Installation de vrd",
+      "Rénovation de vrd",
+      "Entretien et réparation de vrd"
+    ],
+    "materiaux_utilises": [
+      "Bois",
+      "Métal",
+      "PVC",
+      "Béton"
+    ],
+    "normes": [
+      "RGE",
+      "DTU"
+    ],
+    "avantages": [
+      "Durabilité",
+      "Sécurité",
+      "Performance énergétique"
+    ],
+    "inconvenients": [
+      "Coût initial",
+      "Entretien périodique"
+    ],
+    "prix": "50 à 150 €",
+    "unite_prix": "par mètre",
+    "aides_disponibles": [
+      "MaPrimeRénov’",
+      "CEE",
+      "TVA réduite"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d’un {metier} à {ville} ({code_postal}) ?",
+        "r": "Pour un {metier} à {ville}, le tarif est généralement de 50 à 150 € par mètre."
+      },
+      {
+        "q": "Quels services propose un {metier} en {departement} ?",
+        "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
+      }
+    ]
+  }
+]

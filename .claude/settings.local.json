@@ -9,7 +9,8 @@
       "Bash(npx vite build)",
       "Bash(where npm:*)",
       "Bash(npm.cmd install:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(grep:*)"
     ]
   }
 }

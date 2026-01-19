@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cross-env SSR=true vite build && node generate-sitemap.js",
+    "build": "node build.js",
     "build:windows": "vite build && set SSR=true&& vite build && node generate-sitemap.js",
+    "build:cross-env": "vite build && cross-env SSR=true vite build && node generate-sitemap.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "serve": "node server.js",

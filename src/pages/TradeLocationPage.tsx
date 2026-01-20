@@ -7,17 +7,18 @@ import DevisForm from '../components/DevisForm';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ClientOnly from '../components/ClientOnly';
+import NotFoundPage from './NotFoundPage';
 import { interpolateText, getNestedProperty, formatPrice } from '../utils/textUtils';
 import { generateSEOText, validateSEOText } from '../utils/seoTextGenerator';
 
 const TradeLocationPage = () => {
   const { tradeSlug, citySlug } = useParams();
-  
+
   const metier = metiers.find(m => m.slug === tradeSlug);
   const ville = villes.find(v => v.slug === citySlug);
-  
+
   if (!metier || !ville) {
-    return <Navigate to="/" replace />;
+    return <NotFoundPage />;
   }
 
   // Generate SEO text

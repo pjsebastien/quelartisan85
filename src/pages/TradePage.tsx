@@ -7,16 +7,17 @@ import DevisForm from '../components/DevisForm';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ClientOnly from '../components/ClientOnly';
+import NotFoundPage from './NotFoundPage';
 import { interpolateText, getNestedProperty, formatPrice } from '../utils/textUtils';
 import { generateSEOTextVendee, validateSEOTextVendee } from '../utils/seoTextGeneratorVendee';
 
 const TradePage = () => {
   const { tradeSlug } = useParams();
-  
+
   const metier = metiers.find(m => m.slug === tradeSlug);
-  
+
   if (!metier) {
-    return <Navigate to="/" replace />;
+    return <NotFoundPage />;
   }
 
   // Generate SEO text for Vendée

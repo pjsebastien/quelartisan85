@@ -1,21 +1,15 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Calendar, Clock, User, ArrowRight, FileText, Lightbulb, TrendingUp, DollarSign } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import SEOHead, { generateBreadcrumbSchema } from '../components/SEOHead';
 
 const BlogListingPage = () => {
-  // SEO Meta Tags
-  useEffect(() => {
-    document.title = 'Blog - Conseils d\'experts artisans en Vendée - Quel Artisan 85';
-    
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 
-        'Découvrez nos conseils d\'experts pour vos travaux en Vendée. Guides pratiques, astuces et recommandations d\'artisans qualifiés pour réussir tous vos projets.'
-      );
-    }
-  }, []);
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Accueil', url: '/' },
+    { name: 'Blog', url: '/blog' }
+  ]);
 
   const articles = [
     {
@@ -176,6 +170,12 @@ const BlogListingPage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
+      <SEOHead
+        title="Blog - Conseils d'experts artisans en Vendée - Quel Artisan 85"
+        description="Découvrez nos conseils d'experts pour vos travaux en Vendée. Guides pratiques, astuces et recommandations d'artisans qualifiés pour réussir tous vos projets."
+        canonical="/blog"
+        jsonLd={breadcrumbSchema}
+      />
       <Header />
 
       {/* Main Content */}
@@ -229,9 +229,12 @@ const BlogListingPage = () => {
             return (
               <article key={article.slug} className="group bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden hover:shadow-2xl hover:border-orange-300 transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative overflow-hidden">
-                  <img 
-                    src={article.image} 
+                  <img
+                    src={article.image}
                     alt={article.title}
+                    width={800}
+                    height={256}
+                    loading="lazy"
                     className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute top-4 left-4">

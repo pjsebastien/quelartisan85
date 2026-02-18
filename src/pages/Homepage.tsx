@@ -7,6 +7,7 @@ import DevisForm from '../components/DevisForm';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ClientOnly from '../components/ClientOnly';
+import SEOHead from '../components/SEOHead';
 
 const Homepage = () => {
   const navigate = useNavigate();
@@ -65,10 +66,12 @@ const Homepage = () => {
 
   return (
     <>
-      {/* SEO Meta Tags */}
-      <title>Quel Artisan 85 - Devis gratuits d'artisans en Vendée - 2 min chrono !</title>
-      <meta name="description" content="Trouvez rapidement un artisan fiable en Vendée. Devis gratuits en 2 minutes pour tous vos travaux. Artisans vérifiés et qualifiés dans toute la Vendée (85)." />
-      
+      <SEOHead
+        title="Quel Artisan 85 - Devis gratuits d'artisans en Vendée - 2 min chrono !"
+        description="Trouvez rapidement un artisan fiable en Vendée. Devis gratuits en 2 minutes pour tous vos travaux. Artisans vérifiés et qualifiés dans toute la Vendée (85)."
+        canonical="/"
+      />
+
       <div className="min-h-screen bg-white">
         <Header />
 
@@ -115,26 +118,38 @@ const Homepage = () => {
               <div className="relative lg:flex lg:justify-center">
                 <div className="grid grid-cols-2 gap-4 max-w-md mx-auto lg:max-w-lg">
                   <div className="space-y-4">
-                    <img 
-                      src="https://res.cloudinary.com/dcngcvz9k/image/upload/v1758201227/1_vvwkpd.jpg" 
-                      alt="Artisan menuisier en Vendée" 
+                    <img
+                      src="https://res.cloudinary.com/dcngcvz9k/image/upload/f_auto,q_auto,w_400/v1758201227/1_vvwkpd.jpg"
+                      alt="Artisan menuisier en Vendée"
+                      width={400}
+                      height={192}
+                      loading="lazy"
                       className="w-full h-48 object-cover rounded-2xl shadow-xl transform rotate-2 hover:rotate-0 transition-transform duration-300"
                     />
-                    <img 
-                      src="https://res.cloudinary.com/dcngcvz9k/image/upload/v1758201227/3_e1q2x3.jpg" 
-                      alt="Artisan charpentier en Vendée" 
+                    <img
+                      src="https://res.cloudinary.com/dcngcvz9k/image/upload/f_auto,q_auto,w_400/v1758201227/3_e1q2x3.jpg"
+                      alt="Artisan charpentier en Vendée"
+                      width={400}
+                      height={128}
+                      loading="lazy"
                       className="w-full h-32 object-cover rounded-2xl shadow-xl transform -rotate-1 hover:rotate-0 transition-transform duration-300"
                     />
                   </div>
                   <div className="space-y-4 mt-8">
-                    <img 
-                      src="https://res.cloudinary.com/dcngcvz9k/image/upload/v1758201227/2_ho3cir.jpg" 
-                      alt="Artisan potier en Vendée" 
+                    <img
+                      src="https://res.cloudinary.com/dcngcvz9k/image/upload/f_auto,q_auto,w_400/v1758201227/2_ho3cir.jpg"
+                      alt="Artisan potier en Vendée"
+                      width={400}
+                      height={128}
+                      loading="lazy"
                       className="w-full h-32 object-cover rounded-2xl shadow-xl transform -rotate-2 hover:rotate-0 transition-transform duration-300"
                     />
-                    <img 
-                      src="https://res.cloudinary.com/dcngcvz9k/image/upload/v1758201228/6_bsskhi.jpg" 
-                      alt="Équipe d'artisans en Vendée" 
+                    <img
+                      src="https://res.cloudinary.com/dcngcvz9k/image/upload/f_auto,q_auto,w_400/v1758201228/6_bsskhi.jpg"
+                      alt="Equipe d'artisans en Vendée"
+                      width={400}
+                      height={192}
+                      loading="lazy"
                       className="w-full h-48 object-cover rounded-2xl shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300"
                     />
                   </div>
@@ -416,9 +431,12 @@ const Homepage = () => {
         {/* CTA Section */}
         <section className="py-20 bg-gradient-to-r from-orange-500 to-red-500 text-white relative overflow-hidden">
           <div className="absolute inset-0">
-            <img 
-              src="https://res.cloudinary.com/dcngcvz9k/image/upload/v1758201228/6_bsskhi.jpg" 
-              alt="Artisan peintre en Vendée" 
+            <img
+              src="https://res.cloudinary.com/dcngcvz9k/image/upload/f_auto,q_auto,w_1200/v1758201228/6_bsskhi.jpg"
+              alt="Artisan peintre en Vendée"
+              width={1200}
+              height={400}
+              loading="lazy"
               className="w-full h-full object-cover opacity-20"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-orange-500/90 to-red-500/90"></div>

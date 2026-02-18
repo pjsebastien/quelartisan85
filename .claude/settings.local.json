@@ -10,7 +10,14 @@
       "Bash(where npm:*)",
       "Bash(npm.cmd install:*)",
       "Bash(node:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(ping:*)",
+      "Bash(curl:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(ls:*)",
+      "Bash(xargs cat:*)"
     ]
   }
 }

@@ -1,29 +1,29 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { CheckCircle, Clock, Shield, Star, Users, Award, Search, FileText, MessageSquare, ThumbsUp } from 'lucide-react';
 import DevisForm from '../components/DevisForm';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ClientOnly from '../components/ClientOnly';
+import SEOHead, { generateBreadcrumbSchema } from '../components/SEOHead';
 
 const DevisPage = () => {
   const location = useLocation();
   const searchQuery = location.state?.searchQuery || '';
 
-  // SEO Meta Tags
-  useEffect(() => {
-    document.title = 'Demande de devis gratuit - Artisans en Vendée (85) - Quel Artisan 85';
-    
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 
-        'Demandez votre devis gratuit d\'artisans en Vendée. Service rapide, artisans vérifiés, devis personnalisés. Trouvez le professionnel idéal pour vos travaux en Vendée (85).'
-      );
-    }
-  }, []);
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Accueil', url: '/' },
+    { name: 'Demande de devis', url: '/devis' }
+  ]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
+      <SEOHead
+        title="Demande de devis gratuit - Artisans en Vendée (85) - Quel Artisan 85"
+        description="Demandez votre devis gratuit d'artisans en Vendée. Service rapide, artisans vérifiés, devis personnalisés. Trouvez le professionnel idéal pour vos travaux en Vendée (85)."
+        canonical="/devis"
+        jsonLd={breadcrumbSchema}
+      />
       <Header />
 
       {/* Main Content */}

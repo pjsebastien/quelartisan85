@@ -4,6 +4,7 @@ import { ArrowLeft, Calendar, Clock, User, FileText } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ClientOnly from '../components/ClientOnly';
+import SEOHead, { generateArticleSchema, generateBreadcrumbSchema } from '../components/SEOHead';
 
 const BlogPage = () => {
   const { slug } = useParams();
@@ -73,18 +74,25 @@ const BlogPage = () => {
 
   const currentArticle = slug ? articles[slug] : null;
 
+  // Generate JSON-LD schemas for SEO
+  const jsonLdSchemas = currentArticle ? [
+    generateArticleSchema({
+      title: currentArticle.title,
+      description: currentArticle.description,
+      url: `/blog/${slug}`,
+    }),
+    generateBreadcrumbSchema([
+      { name: 'Accueil', url: '/' },
+      { name: 'Blog', url: '/blog' },
+      { name: currentArticle.title, url: `/blog/${slug}` }
+    ])
+  ] : [];
+
   useEffect(() => {
     if (!slug || !currentArticle) {
       setError(true);
       setLoading(false);
       return;
-    }
-
-    // Set SEO meta tags
-    document.title = currentArticle.title;
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', currentArticle.description);
     }
 
     // Load HTML content
@@ -127,6 +135,15 @@ const BlogPage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
+      {currentArticle && (
+        <SEOHead
+          title={currentArticle.title}
+          description={currentArticle.description}
+          canonical={`/blog/${slug}`}
+          ogType="article"
+          jsonLd={jsonLdSchemas}
+        />
+      )}
       <Header />
 
       {/* Main Content */}

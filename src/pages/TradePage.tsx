@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { useParams, Navigate, Link } from 'react-router-dom';
+import React from 'react';
+import { useParams, Link } from 'react-router-dom';
 import { ArrowRight, MapPin, CheckCircle, Clock, Shield, FileText } from 'lucide-react';
 import metiers from '../data/metiers.json';
 import villes from '../data/villes.json';
@@ -8,6 +8,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ClientOnly from '../components/ClientOnly';
 import NotFoundPage from './NotFoundPage';
+import SEOHead, { generateLocalBusinessSchema, generateBreadcrumbSchema, generateFAQSchema } from '../components/SEOHead';
 import { interpolateText, getNestedProperty, formatPrice } from '../utils/textUtils';
 import { generateSEOTextVendee, validateSEOTextVendee } from '../utils/seoTextGeneratorVendee';
 
@@ -23,28 +24,37 @@ const TradePage = () => {
   // Generate SEO text for Vendée
   const seoTextVendee = generateSEOTextVendee(metier);
   const seoValidationVendee = validateSEOTextVendee(seoTextVendee);
-  
-  // Log SEO text validation for debugging
-  console.log('SEO Text Vendée Validation:', seoValidationVendee);
 
-  // SEO Meta Tags
-  useEffect(() => {
-    // Debug the metier object to see its structure
-    console.log('Metier object:', metier);
-    console.log('Metier.nom:', metier.nom, 'Type:', typeof metier.nom);
-    
-    document.title = `${metier.nom} en Vendée (85) - Devis gratuit en 2 min !`;
-    
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 
-        `Trouvez un ${metier.nom.toLowerCase()} qualifié en Vendée. Devis gratuits et rapides pour vos travaux de ${metier.nom.toLowerCase()}. Artisans certifiés dans toute la Vendée (85).`
-      );
-    }
-  }, [metier]);
+  // SEO data
+  const pageTitle = `${metier.nom} en Vendée (85) - Devis gratuit en 2 min !`;
+  const pageDescription = `Trouvez un ${metier.nom.toLowerCase()} qualifié en Vendée. Devis gratuits et rapides pour vos travaux de ${metier.nom.toLowerCase()}. Artisans certifiés dans toute la Vendée (85).`;
+
+  // Generate JSON-LD schemas
+  const jsonLdSchemas = [
+    generateLocalBusinessSchema(metier.nom),
+    generateBreadcrumbSchema([
+      { name: 'Accueil', url: '/' },
+      { name: `${metier.nom} en Vendée`, url: `/${metier.slug}/vendee` }
+    ])
+  ];
+
+  // Add FAQ schema if FAQs exist
+  if (metier.faq && Array.isArray(metier.faq) && metier.faq.length > 0) {
+    const faqItems = metier.faq.map((faqItem: any) => ({
+      question: interpolateText(faqItem.question || faqItem.q || '', { metier, ville: { nom: 'Vendée' }, code_postal: '85000', departement: 'Vendée' }),
+      answer: interpolateText(faqItem.reponse || faqItem.response || faqItem.answer || faqItem.r || faqItem.a || '', { metier, ville: { nom: 'Vendée' }, code_postal: '85000', departement: 'Vendée' })
+    }));
+    jsonLdSchemas.push(generateFAQSchema(faqItems));
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
+      <SEOHead
+        title={pageTitle}
+        description={pageDescription}
+        canonical={`/${metier.slug}/vendee`}
+        jsonLd={jsonLdSchemas}
+      />
       <Header />
 
       {/* Main Content */}

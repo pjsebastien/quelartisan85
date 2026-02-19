@@ -237,13 +237,18 @@ async function prerenderAllPages() {
 
       let html = baseHtml
         .replace('<!--app-html-->', appHtml)
+        // Title & Description
         .replace(/<title>[^<]*<\/title>/, `<title>${seo.title}</title>`)
-        .replace(/<meta name="description" content="[^"]*"/, `<meta name="description" content="${seo.description}"`);
-
-      // Add canonical link if not present
-      if (!html.includes('rel="canonical"')) {
-        html = html.replace('</head>', `<link rel="canonical" href="${seo.canonical}" />\n</head>`);
-      }
+        .replace(/<meta name="description" content="[^"]*"/, `<meta name="description" content="${seo.description}"`)
+        // Canonical - replace existing
+        .replace(/<link rel="canonical" href="[^"]*"/, `<link rel="canonical" href="${seo.canonical}"`)
+        // OpenGraph tags
+        .replace(/<meta property="og:title" content="[^"]*"/, `<meta property="og:title" content="${seo.title}"`)
+        .replace(/<meta property="og:description" content="[^"]*"/, `<meta property="og:description" content="${seo.description}"`)
+        .replace(/<meta property="og:url" content="[^"]*"/, `<meta property="og:url" content="${seo.canonical}"`)
+        // Twitter Cards
+        .replace(/<meta name="twitter:title" content="[^"]*"/, `<meta name="twitter:title" content="${seo.title}"`)
+        .replace(/<meta name="twitter:description" content="[^"]*"/, `<meta name="twitter:description" content="${seo.description}"`);
 
       mkdirSync(dirname(outputPath), { recursive: true });
       writeFileSync(outputPath, html, 'utf8');

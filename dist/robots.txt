@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.quelartisan85.fr/sitemap.xml
+Sitemap: https://www.quelartisan85.fr/sitemap-blog.xml
+
+# Disallow admin or private areas (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Crawl-delay (optional - sets delay between requests in seconds)
+# Crawl-delay: 1

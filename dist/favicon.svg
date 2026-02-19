@@ -1,0 +1,27 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background rounded rectangle -->
+  <rect width="32" height="32" rx="8" fill="url(#gradient)"/>
+  
+  <!-- Hammer icon -->
+  <g transform="translate(8, 8)">
+    <!-- Hammer handle -->
+    <rect x="2" y="10" width="2" height="8" fill="white" rx="1"/>
+    
+    <!-- Hammer head -->
+    <rect x="0" y="6" width="6" height="4" fill="white" rx="1"/>
+    
+    <!-- Hammer claw -->
+    <path d="M6 6 L10 2 L12 4 L8 8 Z" fill="white"/>
+    
+    <!-- Handle grip -->
+    <circle cx="3" cy="14" r="0.5" fill="#f97316" opacity="0.7"/>
+    <circle cx="3" cy="16" r="0.5" fill="#f97316" opacity="0.7"/>
+  </g>
+</svg>

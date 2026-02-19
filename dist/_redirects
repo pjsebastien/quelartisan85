@@ -1,0 +1,30 @@
+# Redirections SEO pour les anciennes URLs
+/maconnerie-vendee/ /maconnerie/vendee 301
+/geometre-vendee/ /geometre/vendee 301
+/plaquiste-vendee/ /platrerie/vendee 301
+/architecte-vendee/ /architecte/vendee 301
+/toiture-vendee/ /couvreur/vendee 301
+/spa-jacuzzi-vendee/ /piscine/vendee 301
+/entreprise-peinture-vendee/ /peintre/vendee 301
+/traitement-termite-vendee/ /menuisier/vendee 301
+/fosse-septique-vendee/ /assainissement/vendee 301
+/douche-italienne-vendee/ /salle-de-bain/vendee 301
+/permis-de-construire-vendee/ /architecte/vendee 301
+/entreprise-electricite-domotique-vendee/ /domotique/vendee 301
+/entreprise-batiment-construction-vendee/ /maconnerie/vendee 301
+/entreprise-peinture-decoration-vendee/ /peintre/vendee 301
+/chauffe-eau-electriques-vendee/ /chauffagiste/vendee 301
+/entreprise-plomberie-chauffage-vendee/ /plombier/vendee 301
+/entreprise-menuisier-ebeniste-vendee/ /menuisier/vendee 301
+/cout-renovation-piscine-carrelee/ /piscine/vendee 301
+
+# Redirections pour les pages principales
+# Redirections spécifiques pour les fichiers HTML du blog
+/blog/*.html /index.html 200
+
+# Redirections pour le blog
+/blog/* /index.html 200
+
+# Redirections pour les pages principales
+/* /index.html 200
+

@@ -459,67 +459,13 @@ async function prerenderAllPages() {
 }
 
 // Process static blog HTML files (from public/blog/)
+// Only adds SEO tags - no header/footer since these files serve as content sources for React
 function processBlogStaticFiles() {
   const blogDir = resolve(__dirname, 'dist/blog');
   const files = readdirSync(blogDir).filter(f => f.endsWith('.html') && f !== 'index.html');
 
-  console.log('\n🔧 Processing static blog HTML files...');
+  console.log('\n🔧 Processing static blog HTML files (SEO only)...');
   let processed = 0;
-
-  // Header HTML template
-  const headerHtml = `
-<header class="site-header">
-  <div class="header-inner">
-    <a href="/" class="header-logo">
-      <div class="logo-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
-        </svg>
-      </div>
-      <div class="logo-text">
-        <h1>Quel Artisan 85</h1>
-        <p>Artisans fiables en Vendée</p>
-      </div>
-    </a>
-    <nav class="header-nav">
-      <a href="/">Accueil</a>
-      <a href="/blog">Blog</a>
-      <a href="/charte">Notre charte</a>
-      <a href="/devis" class="header-cta">Devis gratuit</a>
-    </nav>
-  </div>
-</header>`;
-
-  // Footer HTML template
-  const footerHtml = `
-<footer class="site-footer">
-  <div class="footer-inner">
-    <div>
-      <h3>Quel Artisan 85</h3>
-      <p style="color: #9ca3af; margin: 0;">Votre plateforme de mise en relation avec des artisans qualifiés en Vendée.</p>
-      <a href="/devis" class="footer-cta">Demander un devis</a>
-    </div>
-    <div>
-      <h3>Navigation</h3>
-      <ul>
-        <li><a href="/">Accueil</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/charte">Notre charte</a></li>
-        <li><a href="/devis">Demander un devis</a></li>
-      </ul>
-    </div>
-    <div>
-      <h3>Informations légales</h3>
-      <ul>
-        <li><a href="/mentions-legales">Mentions légales</a></li>
-        <li><a href="/politique-confidentialite">Politique de confidentialité</a></li>
-      </ul>
-    </div>
-    <div class="footer-bottom">
-      <p>© ${new Date().getFullYear()} Quel Artisan 85 - Tous droits réservés</p>
-    </div>
-  </div>
-</footer>`;
 
   for (const file of files) {
     const filePath = resolve(blogDir, file);
@@ -587,7 +533,7 @@ function processBlogStaticFiles() {
     ];
     const jsonLdScript = `<script type="application/ld+json">\n${JSON.stringify(jsonLd, null, 2)}\n    </script>`;
 
-    // Inject SEO tags after meta description
+    // Inject SEO tags after meta description (no header/footer - files are content sources for React)
     if (html.includes('<meta name="description"')) {
       html = html.replace(
         /(<meta name="description" content="[^"]*"[^>]*>)/,
@@ -596,12 +542,6 @@ function processBlogStaticFiles() {
     } else {
       html = html.replace('</head>', `${seoTags}\n    ${jsonLdScript}\n</head>`);
     }
-
-    // Inject header after <body> tag
-    html = html.replace(/<body>/, `<body>\n${headerHtml}`);
-
-    // Inject footer before </body> tag
-    html = html.replace(/<\/body>/, `${footerHtml}\n</body>`);
 
     writeFileSync(filePath, html, 'utf8');
     processed++;

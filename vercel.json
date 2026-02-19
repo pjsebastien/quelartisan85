@@ -3,7 +3,14 @@
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
-    "headers": [
+  "redirects": [
+    {
+      "source": "/blog/:slug.html",
+      "destination": "/blog/:slug",
+      "permanent": true
+    }
+  ],
+  "headers": [
     {
       "source": "/favicon.svg",
       "headers": [

@@ -98,7 +98,7 @@ const BlogPage = () => {
     // Load HTML content
     const loadContent = async () => {
       try {
-        const response = await fetch(`/blog/${slug}.html`);
+        const response = await fetch(`/blog/_content/${slug}.html`);
         if (!response.ok) {
           throw new Error('Article not found');
         }

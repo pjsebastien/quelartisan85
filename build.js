@@ -1,7 +1,7 @@
 import { spawn } from 'child_process';
 import { fileURLToPath } from 'url';
 import { dirname, resolve } from 'path';
-import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, unlinkSync } from 'fs';
 import { SitemapStream, streamToPromise, SitemapIndexStream } from 'sitemap';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -459,95 +459,35 @@ async function prerenderAllPages() {
 }
 
 // Process static blog HTML files (from public/blog/)
-// Only adds SEO tags - no header/footer since these files serve as content sources for React
+// Move to _content subdirectory so they're not directly accessible via URL
 function processBlogStaticFiles() {
   const blogDir = resolve(__dirname, 'dist/blog');
+  const contentDir = resolve(blogDir, '_content');
   const files = readdirSync(blogDir).filter(f => f.endsWith('.html') && f !== 'index.html');
 
-  console.log('\n🔧 Processing static blog HTML files (SEO only)...');
+  // Create _content subdirectory
+  mkdirSync(contentDir, { recursive: true });
+
+  console.log('\n🔧 Moving static blog HTML files to _content/...');
   let processed = 0;
 
   for (const file of files) {
-    const filePath = resolve(blogDir, file);
-    let html = readFileSync(filePath, 'utf8');
-    const slug = file.replace('.html', '');
-    const url = `/blog/${slug}`;
-    const canonical = `${SITE_URL}${url}`;
+    const sourcePath = resolve(blogDir, file);
+    const destPath = resolve(contentDir, file);
 
-    // Extract existing title and description
-    const titleMatch = html.match(/<title>([^<]*)<\/title>/);
-    const descMatch = html.match(/<meta name="description" content="([^"]*)"/);
-    const title = titleMatch ? titleMatch[1] : `${slug.replace(/-/g, ' ')} - Blog Quel Artisan 85`;
-    const description = descMatch ? descMatch[1] : `Article sur ${slug.replace(/-/g, ' ')}`;
+    // Read the original file
+    const html = readFileSync(sourcePath, 'utf8');
 
-    // Extract featured image if exists
-    const imgMatch = html.match(/class="article-featured-image"[^>]*src="([^"]*)"/);
-    const image = imgMatch ? imgMatch[1] : `${SITE_URL}/favicon.svg`;
+    // Write to _content subdirectory (content only, no SEO needed since React handles SEO)
+    writeFileSync(destPath, html, 'utf8');
 
-    // Build SEO tags to inject
-    const seoTags = `
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="canonical" href="${canonical}" />
-    <meta property="og:title" content="${title}" />
-    <meta property="og:description" content="${description}" />
-    <meta property="og:url" content="${canonical}" />
-    <meta property="og:type" content="article" />
-    <meta property="og:image" content="${image}" />
-    <meta property="og:locale" content="fr_FR" />
-    <meta property="og:site_name" content="Quel Artisan 85" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="${title}" />
-    <meta name="twitter:description" content="${description}" />
-    <meta name="twitter:image" content="${image}" />`;
+    // Delete the original file from dist/blog/ to prevent direct access
+    unlinkSync(sourcePath);
 
-    // Build JSON-LD
-    const jsonLd = [
-      {
-        '@context': 'https://schema.org',
-        '@type': 'Organization',
-        name: 'Quel Artisan 85',
-        url: SITE_URL,
-        logo: `${SITE_URL}/favicon.svg`
-      },
-      {
-        '@context': 'https://schema.org',
-        '@type': 'Article',
-        headline: title,
-        description: description,
-        url: canonical,
-        image: image,
-        author: { '@type': 'Organization', name: 'Quel Artisan 85' },
-        publisher: { '@type': 'Organization', name: 'Quel Artisan 85', logo: { '@type': 'ImageObject', url: `${SITE_URL}/favicon.svg` } },
-        datePublished: new Date().toISOString(),
-        dateModified: new Date().toISOString()
-      },
-      {
-        '@context': 'https://schema.org',
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Accueil', item: SITE_URL },
-          { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE_URL}/blog` },
-          { '@type': 'ListItem', position: 3, name: title, item: canonical }
-        ]
-      }
-    ];
-    const jsonLdScript = `<script type="application/ld+json">\n${JSON.stringify(jsonLd, null, 2)}\n    </script>`;
-
-    // Inject SEO tags after meta description (no header/footer - files are content sources for React)
-    if (html.includes('<meta name="description"')) {
-      html = html.replace(
-        /(<meta name="description" content="[^"]*"[^>]*>)/,
-        `$1${seoTags}\n    ${jsonLdScript}`
-      );
-    } else {
-      html = html.replace('</head>', `${seoTags}\n    ${jsonLdScript}\n</head>`);
-    }
-
-    writeFileSync(filePath, html, 'utf8');
     processed++;
   }
 
-  console.log(`   ✅ ${processed} static blog files processed`);
+  console.log(`   ✅ ${processed} static blog files moved to _content/`);
   return processed;
 }
 

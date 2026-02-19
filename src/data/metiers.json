@@ -4462,5 +4462,808 @@
         "r": "Les artisans {metier} de {departement} assurent l’installation, la rénovation et l’entretien selon vos besoins."
       }
     ]
+  },
+  {
+    "id": 94,
+    "nom": "Maçonnerie",
+    "slug": "maconnerie",
+    "description_courte": "Travaux de maçonnerie pour construction, rénovation et aménagement.",
+    "description_longue": "Les maçons professionnels interviennent à {ville} pour tous vos travaux de construction et rénovation. De la création de murs porteurs à la rénovation de façades, en passant par les fondations et les travaux de gros œuvre, nos artisans maçons certifiés en {departement} réalisent des ouvrages durables et conformes aux normes de construction.",
+    "services": [
+      "Construction de murs et cloisons",
+      "Création et réparation de fondations",
+      "Rénovation de façades",
+      "Ouverture et fermeture de murs porteurs",
+      "Construction de murets et clôtures",
+      "Travaux de gros œuvre",
+      "Pose de briques et parpaings",
+      "Rejointoiement et réparation de pierres"
+    ],
+    "materiaux_utilises": [
+      "Parpaings",
+      "Briques",
+      "Pierre naturelle",
+      "Béton armé",
+      "Mortier",
+      "Ciment",
+      "Béton cellulaire"
+    ],
+    "normes": [
+      "DTU 20.1",
+      "NF EN 1996",
+      "Eurocodes"
+    ],
+    "avantages": [
+      "Solidité et durabilité des ouvrages",
+      "Polyvalence des interventions",
+      "Expertise technique certifiée",
+      "Garantie décennale obligatoire"
+    ],
+    "inconvenients": [
+      "Travaux souvent bruyants et poussiéreux",
+      "Délais variables selon la météo",
+      "Nécessite parfois des autorisations"
+    ],
+    "prix": "50 à 150 €",
+    "unite_prix": "par m² selon le type de travaux",
+    "aides_disponibles": [
+      "TVA réduite 10%",
+      "Éco-PTZ si rénovation énergétique",
+      "MaPrimeRénov' pour certains travaux"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d'un maçon à {ville} ({code_postal}) ?",
+        "r": "À {ville}, le tarif d'un maçon varie de 50 à 150 € par m² selon le type de travaux : mur en parpaings (50-80 €/m²), mur en pierre (100-150 €/m²), fondations (80-120 €/m linéaire)."
+      },
+      {
+        "q": "Quels travaux peut réaliser un maçon en {departement} ?",
+        "r": "Un maçon en {departement} peut réaliser la construction de murs, les fondations, la rénovation de façades, l'ouverture de murs porteurs, et tous travaux de gros œuvre."
+      },
+      {
+        "q": "Un maçon peut-il ouvrir un mur porteur à {ville} ?",
+        "r": "Oui, un maçon qualifié peut ouvrir un mur porteur à {ville} après étude de structure. Cette intervention nécessite généralement l'avis d'un bureau d'études."
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "nom": "Extension de maison",
+    "slug": "extension-maison",
+    "description_courte": "Agrandissement et extension de votre maison sur mesure.",
+    "description_longue": "Nos artisans spécialisés en extension de maison à {ville} vous accompagnent dans l'agrandissement de votre habitat. Extension latérale, surélévation, véranda habitable ou aménagement de combles, nous réalisons des projets sur mesure en {departement}, de la conception à la livraison clé en main.",
+    "services": [
+      "Extension latérale traditionnelle",
+      "Extension en ossature bois",
+      "Surélévation de toiture",
+      "Aménagement de combles",
+      "Véranda habitable",
+      "Extension de garage",
+      "Création de dépendances",
+      "Extension à toit plat contemporain"
+    ],
+    "materiaux_utilises": [
+      "Parpaings",
+      "Ossature bois",
+      "Béton",
+      "Briques",
+      "Structure métallique",
+      "Verre et aluminium"
+    ],
+    "normes": [
+      "RT 2012 / RE 2020",
+      "DTU applicables",
+      "Permis de construire",
+      "PLU local"
+    ],
+    "avantages": [
+      "Gain d'espace sans déménager",
+      "Valorisation du bien immobilier",
+      "Solution personnalisée",
+      "Possibilité de travaux en site occupé"
+    ],
+    "inconvenients": [
+      "Budget conséquent",
+      "Démarches administratives",
+      "Délais de réalisation importants"
+    ],
+    "prix": "1 500 à 3 500 €",
+    "unite_prix": "par m² clé en main",
+    "aides_disponibles": [
+      "Éco-PTZ",
+      "MaPrimeRénov' si performance énergétique",
+      "TVA réduite 10%",
+      "Prêt travaux"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d'une extension de maison à {ville} ({code_postal}) ?",
+        "r": "À {ville}, le prix d'une extension varie de 1 500 à 3 500 €/m² selon le type : extension parpaings (1 500-2 200 €/m²), ossature bois (1 800-2 800 €/m²), toit plat (2 500-3 500 €/m²)."
+      },
+      {
+        "q": "Faut-il un permis de construire pour une extension en {departement} ?",
+        "r": "En {departement}, une déclaration préalable suffit pour une extension de moins de 40 m². Au-delà, un permis de construire est obligatoire."
+      },
+      {
+        "q": "Quelle est la durée des travaux d'extension à {ville} ?",
+        "r": "À {ville}, comptez 3 à 6 mois pour une extension clé en main : 1-2 mois pour les démarches, 2-4 mois pour les travaux."
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "nom": "Ravalement de façade",
+    "slug": "ravalement-facade",
+    "description_courte": "Rénovation et ravalement de façades pour embellir et protéger votre maison.",
+    "description_longue": "Les façadiers professionnels à {ville} réalisent le ravalement complet de votre façade : nettoyage, réparation des fissures, application d'enduits et peintures de finition. En {departement}, le ravalement est souvent obligatoire tous les 10 ans et permet de protéger durablement votre habitat.",
+    "services": [
+      "Nettoyage haute pression de façade",
+      "Traitement anti-mousse et hydrofuge",
+      "Réparation des fissures",
+      "Application d'enduit de façade",
+      "Peinture de façade",
+      "Isolation thermique par l'extérieur (ITE)",
+      "Rénovation des joints de pierre",
+      "Traitement des façades en pierre"
+    ],
+    "materiaux_utilises": [
+      "Enduit monocouche",
+      "Enduit traditionnel",
+      "Peinture siloxane",
+      "Crépi",
+      "Hydrofuge",
+      "Isolant polystyrène/laine de roche"
+    ],
+    "normes": [
+      "DTU 42.1",
+      "DTU 26.1",
+      "RE 2020 pour ITE",
+      "Règlement sanitaire départemental"
+    ],
+    "avantages": [
+      "Protection durable du bâti",
+      "Amélioration esthétique",
+      "Valorisation du bien",
+      "Possibilité d'améliorer l'isolation"
+    ],
+    "inconvenients": [
+      "Échafaudage nécessaire",
+      "Travaux dépendants de la météo",
+      "Déclaration préalable parfois requise"
+    ],
+    "prix": "30 à 150 €",
+    "unite_prix": "par m² selon finition",
+    "aides_disponibles": [
+      "MaPrimeRénov' avec ITE",
+      "CEE",
+      "TVA réduite 5,5% avec ITE",
+      "Éco-PTZ"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d'un ravalement de façade à {ville} ({code_postal}) ?",
+        "r": "À {ville}, le ravalement coûte entre 30 et 150 €/m² : nettoyage simple (30-50 €/m²), ravalement avec peinture (50-80 €/m²), ravalement avec ITE (100-150 €/m²)."
+      },
+      {
+        "q": "Le ravalement de façade est-il obligatoire en {departement} ?",
+        "r": "En {departement}, le ravalement peut être obligatoire tous les 10 ans selon les arrêtés municipaux."
+      },
+      {
+        "q": "Quelles aides pour un ravalement de façade à {ville} ?",
+        "r": "À {ville}, vous pouvez bénéficier de MaPrimeRénov', des CEE et de la TVA à 5,5% si vous combinez le ravalement avec une ITE."
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "nom": "VMC",
+    "slug": "vmc",
+    "description_courte": "Installation et entretien de VMC pour une ventilation optimale de votre logement.",
+    "description_longue": "Les installateurs de VMC à {ville} assurent la pose et l'entretien de systèmes de ventilation mécanique contrôlée. En {departement}, une VMC performante est essentielle pour garantir la qualité de l'air intérieur, évacuer l'humidité et réduire les déperditions énergétiques.",
+    "services": [
+      "Installation de VMC simple flux",
+      "Installation de VMC double flux",
+      "Installation de VMC hygroréglable",
+      "Remplacement de VMC vétuste",
+      "Entretien et nettoyage de VMC",
+      "Réparation de VMC",
+      "Installation de bouches d'extraction",
+      "Pose de gaines et conduits"
+    ],
+    "materiaux_utilises": [
+      "Gaines rigides PVC",
+      "Gaines flexibles isolées",
+      "Bouches d'extraction hygroréglables",
+      "Caisson VMC",
+      "Échangeur thermique (double flux)"
+    ],
+    "normes": [
+      "RT 2012 / RE 2020",
+      "NF VMC",
+      "DTU 68.3",
+      "Arrêté du 24 mars 1982"
+    ],
+    "avantages": [
+      "Qualité de l'air intérieur améliorée",
+      "Évacuation de l'humidité",
+      "Économies d'énergie (double flux)",
+      "Prévention des moisissures"
+    ],
+    "inconvenients": [
+      "Nuisance sonore possible",
+      "Entretien régulier nécessaire",
+      "Coût d'installation double flux élevé"
+    ],
+    "prix": "500 à 5 000 €",
+    "unite_prix": "selon type de VMC",
+    "aides_disponibles": [
+      "MaPrimeRénov'",
+      "CEE",
+      "TVA réduite 5,5%",
+      "Éco-PTZ"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d'une VMC à {ville} ({code_postal}) ?",
+        "r": "À {ville}, comptez 500-1 500 € pour une VMC simple flux, 1 000-2 500 € pour une VMC hygroréglable, et 3 000-5 000 € pour une VMC double flux."
+      },
+      {
+        "q": "La VMC est-elle obligatoire en {departement} ?",
+        "r": "Oui, en {departement}, la VMC est obligatoire dans les logements construits après 1982."
+      },
+      {
+        "q": "Quelle VMC choisir pour ma maison à {ville} ?",
+        "r": "À {ville}, pour une maison : VMC simple flux (économique), VMC hygroréglable (bon compromis), VMC double flux (performances maximales)."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "nom": "Verrière intérieure",
+    "slug": "verriere-interieure",
+    "description_courte": "Création et pose de verrières intérieures pour apporter lumière et style à votre intérieur.",
+    "description_longue": "Les artisans spécialisés en verrières intérieures à {ville} conçoivent et installent des séparations vitrées sur mesure. Très tendance en {departement}, la verrière d'atelier permet de séparer les espaces tout en conservant la luminosité.",
+    "services": [
+      "Verrière de séparation cuisine/salon",
+      "Verrière d'atelier sur mesure",
+      "Verrière avec porte coulissante",
+      "Verrière de salle de bains",
+      "Verrière de bureau",
+      "Verrière sous combles",
+      "Cloison vitrée toute hauteur",
+      "Verrière avec imposte"
+    ],
+    "materiaux_utilises": [
+      "Acier thermolaqué",
+      "Aluminium",
+      "Fer forgé",
+      "Verre trempé",
+      "Verre feuilleté",
+      "Verre dépoli"
+    ],
+    "normes": [
+      "NF DTU 39",
+      "Norme verre de sécurité",
+      "Marquage CE"
+    ],
+    "avantages": [
+      "Apport de lumière naturelle",
+      "Séparation des espaces sans cloisonner",
+      "Style moderne et tendance",
+      "Valorisation du bien immobilier"
+    ],
+    "inconvenients": [
+      "Isolation phonique limitée",
+      "Entretien du verre régulier",
+      "Budget variable selon les dimensions"
+    ],
+    "prix": "800 à 3 000 €",
+    "unite_prix": "par m² posé",
+    "aides_disponibles": [
+      "TVA réduite 10%"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d'une verrière intérieure à {ville} ({code_postal}) ?",
+        "r": "À {ville}, une verrière intérieure coûte entre 800 et 3 000 €/m² posée : verrière standard (800-1 200 €/m²), sur mesure (1 200-2 000 €/m²), avec porte (1 500-3 000 €/m²)."
+      },
+      {
+        "q": "Peut-on installer une verrière sur un mur porteur en {departement} ?",
+        "r": "Oui, en {departement}, l'installation d'une verrière sur mur porteur est possible après création d'une ouverture avec IPN."
+      },
+      {
+        "q": "Quel type de verre pour une verrière à {ville} ?",
+        "r": "Pour une verrière à {ville}, nous recommandons le verre trempé ou feuilleté. Pour la salle de bains, optez pour un verre dépoli."
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "nom": "Construction maison",
+    "slug": "construction-maison",
+    "description_courte": "Construction de maisons individuelles sur mesure en Vendée.",
+    "description_longue": "Les constructeurs de maisons à {ville} réalisent votre projet de construction neuve de A à Z. En {departement}, nous coordonnons tous les corps de métier pour construire votre maison individuelle sur mesure.",
+    "services": [
+      "Construction maison traditionnelle",
+      "Construction maison contemporaine",
+      "Maison ossature bois",
+      "Maison plain-pied",
+      "Maison à étage",
+      "Maison BBC / RE 2020",
+      "Maison passive",
+      "Coordination de chantier"
+    ],
+    "materiaux_utilises": [
+      "Parpaings",
+      "Briques",
+      "Ossature bois",
+      "Béton",
+      "Pierre"
+    ],
+    "normes": [
+      "RE 2020",
+      "NF Habitat",
+      "DTU applicables",
+      "Permis de construire"
+    ],
+    "avantages": [
+      "Maison sur mesure",
+      "Garanties constructeur (décennale)",
+      "Interlocuteur unique",
+      "Respect des délais contractuels"
+    ],
+    "inconvenients": [
+      "Budget conséquent",
+      "Délais de construction longs",
+      "Démarches administratives"
+    ],
+    "prix": "1 200 à 2 500 €",
+    "unite_prix": "par m² hors terrain",
+    "aides_disponibles": [
+      "PTZ (Prêt à Taux Zéro)",
+      "TVA réduite en zones ANRU",
+      "Aides locales Vendée"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d'une construction de maison à {ville} ({code_postal}) ?",
+        "r": "À {ville}, le prix de construction varie de 1 200 à 2 500 €/m² hors terrain : traditionnelle (1 200-1 600 €/m²), contemporaine (1 500-2 000 €/m²), passive (2 000-2 500 €/m²)."
+      },
+      {
+        "q": "Quels délais pour construire une maison en {departement} ?",
+        "r": "En {departement}, comptez 10 à 18 mois au total : 2-4 mois pour le permis, 8-14 mois pour la construction."
+      },
+      {
+        "q": "Quelles garanties pour une construction neuve à {ville} ?",
+        "r": "À {ville}, votre construction bénéficie de la garantie de parfait achèvement (1 an), biennale (2 ans) et décennale (10 ans)."
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "nom": "Surélévation de maison",
+    "slug": "surelevation-maison",
+    "description_courte": "Surélévation et rehaussement de toiture pour gagner de l'espace habitable.",
+    "description_longue": "Les artisans spécialisés en surélévation à {ville} réalisent le rehaussement de votre toiture pour créer un nouvel étage. En {departement}, cette solution permet de doubler votre surface habitable sans empiéter sur votre jardin.",
+    "services": [
+      "Surélévation complète",
+      "Rehaussement de toiture",
+      "Surélévation partielle",
+      "Surélévation en ossature bois",
+      "Surélévation béton/parpaings",
+      "Aménagement du nouvel étage",
+      "Création d'escalier",
+      "Modification de charpente"
+    ],
+    "materiaux_utilises": [
+      "Ossature bois",
+      "Parpaings",
+      "Béton cellulaire",
+      "Structure métallique",
+      "Charpente bois"
+    ],
+    "normes": [
+      "RE 2020",
+      "DTU applicables",
+      "Permis de construire",
+      "PLU local"
+    ],
+    "avantages": [
+      "Doublement de la surface habitable",
+      "Pas d'emprise au sol supplémentaire",
+      "Valorisation importante du bien",
+      "Alternative au déménagement"
+    ],
+    "inconvenients": [
+      "Budget élevé",
+      "Travaux complexes",
+      "Nécessite de quitter le logement temporairement"
+    ],
+    "prix": "1 800 à 3 500 €",
+    "unite_prix": "par m² créé",
+    "aides_disponibles": [
+      "Éco-PTZ",
+      "MaPrimeRénov' si isolation performante",
+      "TVA réduite 10%"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d'une surélévation à {ville} ({code_postal}) ?",
+        "r": "À {ville}, une surélévation coûte entre 1 800 et 3 500 €/m² : ossature bois (1 800-2 500 €/m²), parpaings (2 200-3 000 €/m²), haut de gamme (3 000-3 500 €/m²)."
+      },
+      {
+        "q": "Faut-il un permis pour surélever en {departement} ?",
+        "r": "Oui, en {departement}, la surélévation nécessite toujours un permis de construire."
+      },
+      {
+        "q": "Peut-on rester dans la maison pendant une surélévation à {ville} ?",
+        "r": "Généralement non. À {ville}, il est conseillé de quitter le logement pendant les travaux (2-4 mois)."
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "nom": "Enduit de façade",
+    "slug": "enduit-facade",
+    "description_courte": "Application d'enduit de façade pour protéger et embellir vos murs extérieurs.",
+    "description_longue": "Les façadiers à {ville} appliquent tous types d'enduits de façade : monocouche, traditionnel, à la chaux ou décoratif. En {departement}, l'enduit protège vos murs des intempéries tout en apportant la finition esthétique souhaitée.",
+    "services": [
+      "Enduit monocouche",
+      "Enduit traditionnel multicouche",
+      "Enduit à la chaux",
+      "Enduit décoratif",
+      "Enduit gratté",
+      "Enduit taloché",
+      "Enduit projeté",
+      "Réparation d'enduit existant"
+    ],
+    "materiaux_utilises": [
+      "Enduit monocouche",
+      "Mortier de chaux",
+      "Enduit hydraulique",
+      "Enduit minéral",
+      "Enduit organique"
+    ],
+    "normes": [
+      "DTU 26.1",
+      "NF EN 998-1",
+      "DTU 42.1"
+    ],
+    "avantages": [
+      "Protection contre les intempéries",
+      "Large choix de finitions",
+      "Durabilité (15-30 ans)",
+      "Entretien facile"
+    ],
+    "inconvenients": [
+      "Dépendant de la météo",
+      "Nécessite un échafaudage",
+      "Temps de séchage important"
+    ],
+    "prix": "25 à 80 €",
+    "unite_prix": "par m² selon type d'enduit",
+    "aides_disponibles": [
+      "TVA réduite 10%",
+      "MaPrimeRénov' avec isolation",
+      "CEE avec ITE"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d'un enduit de façade à {ville} ({code_postal}) ?",
+        "r": "À {ville}, l'enduit de façade coûte de 25 à 80 €/m² : monocouche (25-40 €/m²), traditionnel (40-60 €/m²), à la chaux (50-80 €/m²)."
+      },
+      {
+        "q": "Quelle différence entre enduit et crépi en {departement} ?",
+        "r": "En {departement}, le crépi désigne un enduit projeté granuleux. L'enduit englobe toutes les finitions : lisse, gratté, taloché, ribbé ou projeté."
+      },
+      {
+        "q": "Combien de temps dure un enduit de façade à {ville} ?",
+        "r": "À {ville}, un enduit bien appliqué dure 15 à 30 ans selon la qualité du produit."
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "nom": "Cheminée & Insert",
+    "slug": "cheminee-insert",
+    "description_courte": "Installation, rénovation et tubage de cheminées et inserts.",
+    "description_longue": "Les artisans spécialisés en cheminées et inserts à {ville} réalisent l'installation, la rénovation et le tubage de votre système de chauffage au bois. En {departement}, l'insert permet de transformer une cheminée ouverte en un chauffage efficace.",
+    "services": [
+      "Installation d'insert",
+      "Pose de cheminée à foyer fermé",
+      "Rénovation de cheminée ancienne",
+      "Tubage de conduit",
+      "Création de conduit de fumée",
+      "Habillage et décoration",
+      "Pose de récupérateur de chaleur",
+      "Entretien et ramonage"
+    ],
+    "materiaux_utilises": [
+      "Insert fonte",
+      "Insert acier",
+      "Conduit inox",
+      "Pierre naturelle",
+      "Briques réfractaires",
+      "Vermiculite"
+    ],
+    "normes": [
+      "DTU 24.1",
+      "NF EN 13229",
+      "Label Flamme Verte",
+      "Réglementation ramonage"
+    ],
+    "avantages": [
+      "Chauffage économique au bois",
+      "Rendement jusqu'à 85%",
+      "Ambiance chaleureuse",
+      "Énergie renouvelable"
+    ],
+    "inconvenients": [
+      "Stockage du bois nécessaire",
+      "Entretien régulier (ramonage)",
+      "Manutention du combustible"
+    ],
+    "prix": "2 000 à 8 000 €",
+    "unite_prix": "installation complète",
+    "aides_disponibles": [
+      "MaPrimeRénov'",
+      "CEE",
+      "TVA réduite 5,5%",
+      "Éco-PTZ"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d'un insert à {ville} ({code_postal}) ?",
+        "r": "À {ville}, l'installation d'un insert coûte 2 000 à 8 000 € : entrée de gamme (2 000-3 500 €), milieu de gamme (3 500-5 500 €), haut de gamme (5 500-8 000 €)."
+      },
+      {
+        "q": "Faut-il un tubage pour un insert en {departement} ?",
+        "r": "En {departement}, le tubage du conduit est obligatoire pour l'installation d'un insert."
+      },
+      {
+        "q": "Quelles aides pour un insert à {ville} ?",
+        "r": "À {ville}, l'installation d'un insert Flamme Verte 7 étoiles est éligible à MaPrimeRénov' (jusqu'à 2 500 €), aux CEE et à la TVA 5,5%."
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "nom": "Escalier intérieur",
+    "slug": "escalier-interieur",
+    "description_courte": "Fabrication et pose d'escaliers intérieurs sur mesure.",
+    "description_longue": "Les menuisiers et artisans escaliers à {ville} conçoivent et installent des escaliers intérieurs sur mesure. En {departement}, nous réalisons tous types d'escaliers : droit, quart tournant, hélicoïdal ou suspendu.",
+    "services": [
+      "Escalier droit",
+      "Escalier quart tournant",
+      "Escalier deux quarts tournant",
+      "Escalier hélicoïdal / colimaçon",
+      "Escalier suspendu",
+      "Escalier avec rangements",
+      "Rénovation d'escalier existant",
+      "Pose de garde-corps"
+    ],
+    "materiaux_utilises": [
+      "Bois massif (chêne, hêtre)",
+      "Bois exotique",
+      "Métal laqué",
+      "Acier brut",
+      "Verre trempé",
+      "Béton"
+    ],
+    "normes": [
+      "NF P 01-012",
+      "DTU 36.3",
+      "Normes garde-corps",
+      "Accessibilité PMR"
+    ],
+    "avantages": [
+      "Sur mesure parfaitement adapté",
+      "Large choix de styles",
+      "Valorisation de l'intérieur",
+      "Durabilité"
+    ],
+    "inconvenients": [
+      "Budget variable selon matériaux",
+      "Délai de fabrication",
+      "Espace nécessaire"
+    ],
+    "prix": "3 000 à 15 000 €",
+    "unite_prix": "escalier posé",
+    "aides_disponibles": [
+      "TVA réduite 10%",
+      "Crédit d'impôt accessibilité (PMR)"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d'un escalier intérieur à {ville} ({code_postal}) ?",
+        "r": "À {ville}, un escalier intérieur coûte de 3 000 à 15 000 € posé : bois standard (3 000-5 000 €), bois/métal design (5 000-10 000 €), sur mesure haut de gamme (10 000-15 000 €)."
+      },
+      {
+        "q": "Quel type d'escalier pour un petit espace en {departement} ?",
+        "r": "En {departement}, pour les petits espaces, privilégiez l'escalier hélicoïdal (emprise 1,5-2 m²) ou l'escalier avec rangements intégrés."
+      },
+      {
+        "q": "Combien de temps pour fabriquer un escalier sur mesure à {ville} ?",
+        "r": "À {ville}, comptez 4 à 8 semaines pour la fabrication, puis 1 à 3 jours pour la pose."
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "nom": "Béton ciré",
+    "slug": "beton-cire",
+    "description_courte": "Application de béton ciré pour sols, murs et plans de travail.",
+    "description_longue": "Les applicateurs de béton ciré à {ville} réalisent des revêtements décoratifs haut de gamme pour sols, murs, escaliers et plans de travail. En {departement}, le béton ciré apporte un style contemporain et épuré à votre intérieur.",
+    "services": [
+      "Sol en béton ciré",
+      "Mur en béton ciré",
+      "Plan de travail béton ciré",
+      "Escalier béton ciré",
+      "Douche béton ciré",
+      "Rénovation sur carrelage",
+      "Béton ciré extérieur",
+      "Béton ciré couleur sur mesure"
+    ],
+    "materiaux_utilises": [
+      "Béton ciré minéral",
+      "Micro-béton",
+      "Mortier fin",
+      "Cire de protection",
+      "Vernis polyuréthane"
+    ],
+    "normes": [
+      "Classement UPEC",
+      "Normes anti-glissance",
+      "Garantie applicateur"
+    ],
+    "avantages": [
+      "Esthétique contemporaine",
+      "Sans joint (hygiénique)",
+      "Large palette de couleurs",
+      "Rénovation sur existant possible"
+    ],
+    "inconvenients": [
+      "Application technique",
+      "Sensibilité aux rayures",
+      "Entretien spécifique"
+    ],
+    "prix": "100 à 200 €",
+    "unite_prix": "par m² posé",
+    "aides_disponibles": [
+      "TVA réduite 10%"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix du béton ciré à {ville} ({code_postal}) ?",
+        "r": "À {ville}, le béton ciré coûte 100 à 200 €/m² posé : sol (100-150 €/m²), mur (80-120 €/m²), plan de travail (150-200 €/m²)."
+      },
+      {
+        "q": "Peut-on appliquer du béton ciré sur du carrelage en {departement} ?",
+        "r": "Oui, en {departement}, le béton ciré peut être appliqué sur un carrelage existant après préparation du support."
+      },
+      {
+        "q": "Le béton ciré est-il adapté à une salle de bains à {ville} ?",
+        "r": "Oui, à {ville}, le béton ciré est parfaitement adapté aux salles de bains grâce à un traitement hydrofuge."
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "nom": "Stores & Brise-soleil",
+    "slug": "stores-brise-soleil",
+    "description_courte": "Installation de stores, brise-soleil et protections solaires.",
+    "description_longue": "Les installateurs de stores et brise-soleil à {ville} équipent vos fenêtres et façades de protections solaires performantes. En {departement}, nous proposons stores bannes, stores intérieurs, brise-soleil orientables et pergolas à lames.",
+    "services": [
+      "Store banne terrasse",
+      "Store banne motorisé",
+      "Brise-soleil orientable (BSO)",
+      "Store vénitien extérieur",
+      "Store intérieur",
+      "Pergola à lames orientables",
+      "Store screen",
+      "Protection solaire véranda"
+    ],
+    "materiaux_utilises": [
+      "Toile acrylique",
+      "Toile micro-perforée",
+      "Aluminium",
+      "Lames orientables",
+      "Motorisation Somfy"
+    ],
+    "normes": [
+      "Marquage CE",
+      "NF EN 13561",
+      "Garantie fabricant"
+    ],
+    "avantages": [
+      "Réduction de la chaleur intérieure",
+      "Économies de climatisation",
+      "Confort visuel",
+      "Protection des meubles (UV)"
+    ],
+    "inconvenients": [
+      "Entretien de la toile",
+      "Sensibilité au vent (store banne)",
+      "Motorisation en option"
+    ],
+    "prix": "500 à 5 000 €",
+    "unite_prix": "selon type et dimensions",
+    "aides_disponibles": [
+      "TVA réduite 10%",
+      "Crédit d'impôt si domotique"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix d'un store banne à {ville} ({code_postal}) ?",
+        "r": "À {ville}, un store banne coûte 500 à 5 000 € posé : manuel 3m (500-1 200 €), motorisé 4m (1 500-2 500 €), coffre intégral 5m (2 500-5 000 €)."
+      },
+      {
+        "q": "Quel store pour une grande baie vitrée en {departement} ?",
+        "r": "En {departement}, pour une grande baie vitrée, le brise-soleil orientable (BSO) ou le store screen sont idéaux."
+      },
+      {
+        "q": "Les stores sont-ils efficaces contre la chaleur à {ville} ?",
+        "r": "Oui, à {ville}, un store extérieur réduit jusqu'à 90% de la chaleur solaire."
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "nom": "Gouttières",
+    "slug": "gouttieres",
+    "description_courte": "Pose, remplacement et entretien de gouttières et descentes d'eau.",
+    "description_longue": "Les zingueurs et couvreurs à {ville} installent et entretiennent vos gouttières et descentes d'eau pluviale. En {departement}, une évacuation d'eau efficace protège vos façades et fondations.",
+    "services": [
+      "Pose de gouttières neuves",
+      "Remplacement de gouttières",
+      "Gouttières zinc",
+      "Gouttières aluminium",
+      "Gouttières PVC",
+      "Descentes d'eau pluviale",
+      "Nettoyage de gouttières",
+      "Réparation de fuites"
+    ],
+    "materiaux_utilises": [
+      "Zinc naturel",
+      "Zinc prélaqué",
+      "Aluminium laqué",
+      "PVC",
+      "Cuivre"
+    ],
+    "normes": [
+      "DTU 40.5",
+      "NF EN 612",
+      "Règles de l'art zinguerie"
+    ],
+    "avantages": [
+      "Protection des façades",
+      "Évacuation efficace des eaux",
+      "Durabilité (zinc 50 ans)",
+      "Peu d'entretien"
+    ],
+    "inconvenients": [
+      "Nettoyage annuel recommandé",
+      "Feuilles et débris à retirer",
+      "Travaux en hauteur"
+    ],
+    "prix": "30 à 100 €",
+    "unite_prix": "par mètre linéaire posé",
+    "aides_disponibles": [
+      "TVA réduite 10%"
+    ],
+    "faq": [
+      {
+        "q": "Quel est le prix des gouttières à {ville} ({code_postal}) ?",
+        "r": "À {ville}, les gouttières coûtent 30 à 100 €/ml posées : PVC (30-45 €/ml), aluminium (45-70 €/ml), zinc (60-100 €/ml)."
+      },
+      {
+        "q": "Quelle gouttière choisir en {departement} ?",
+        "r": "En {departement}, le zinc est le meilleur rapport qualité/durabilité (50 ans). L'aluminium offre un bon compromis (30 ans). Le PVC est économique (15-20 ans)."
+      },
+      {
+        "q": "À quelle fréquence nettoyer les gouttières à {ville} ?",
+        "r": "À {ville}, nettoyez vos gouttières 1 à 2 fois par an : en automne après la chute des feuilles et au printemps."
+      }
+    ]
   }
 ]

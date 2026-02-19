@@ -17,7 +17,13 @@
       "Bash(git commit:*)",
       "Bash(git push:*)",
       "Bash(ls:*)",
-      "Bash(xargs cat:*)"
+      "Bash(xargs cat:*)",
+      "WebFetch(domain:www.quelartisan85.fr)",
+      "Bash(echo:*)",
+      "Read(//c/**)",
+      "Bash(cd:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(timeout:*)"
     ]
   }
 }

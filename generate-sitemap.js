@@ -1,4 +1,4 @@
-import { SitemapStream, streamToPromise } from 'sitemap';
+import { SitemapStream, streamToPromise, SitemapIndexStream } from 'sitemap';
 import { writeFileSync, readFileSync, mkdirSync } from 'fs';
 import { resolve, dirname, join } from 'path';
 import { fileURLToPath } from 'url';
@@ -32,13 +32,15 @@ try {
   process.exit(1);
 }
 
+const hostname = 'https://www.quelartisan85.fr';
+
 /**
  * Extract title and meta description from rendered HTML
  */
 function extractMetadata(html) {
   const titleMatch = html.match(/<title[^>]*>([^<]*)<\/title>/i);
   const metaMatch = html.match(/<meta\s+name=["']description["']\s+content=["']([^"']*)["'][^>]*>/i);
-  
+
   return {
     title: titleMatch ? titleMatch[1] : 'Quel Artisan 85',
     description: metaMatch ? metaMatch[1] : 'Trouvez rapidement un artisan fiable en Vendée'
@@ -51,27 +53,27 @@ function extractMetadata(html) {
 function prerenderRoute(url, outputPath) {
   try {
     console.log(`🔄 Prerendering: ${url} -> ${outputPath}`);
-    
+
     // Render the route using SSR
     const appHtml = render(url);
-    
+
     // Extract metadata from the rendered HTML
     const metadata = extractMetadata(appHtml);
-    
+
     // Replace placeholders in base HTML
     let finalHtml = baseHtml
       .replace('<!--app-html-->', appHtml)
       .replace(/<title[^>]*>([^<]*)<\/title>/i, `<title>${metadata.title}</title>`)
-      .replace(/<meta\s+name=["']description["']\s+content=["'][^"']*["'][^>]*>/i, 
+      .replace(/<meta\s+name=["']description["']\s+content=["'][^"']*["'][^>]*>/i,
         `<meta name="description" content="${metadata.description}" />`);
-    
+
     // Ensure output directory exists
     const outputDir = dirname(outputPath);
     mkdirSync(outputDir, { recursive: true });
-    
+
     // Write the prerendered HTML
     writeFileSync(outputPath, finalHtml, 'utf8');
-    
+
     console.log(`✅ Generated: ${outputPath}`);
     return true;
   } catch (error) {
@@ -80,16 +82,58 @@ function prerenderRoute(url, outputPath) {
   }
 }
 
-async function generateSitemapAndPrerender() {
-  const hostname = 'https://www.quelartisan85.fr/';
-  
-  // Create a stream to write to
+/**
+ * Generate a single sitemap file
+ */
+async function generateSitemap(urls, filename) {
   const sitemap = new SitemapStream({ hostname });
-  
-  // Array to store all routes for prerendering
+
+  for (const urlData of urls) {
+    sitemap.write(urlData);
+  }
+
+  sitemap.end();
+
+  const sitemapXML = await streamToPromise(sitemap);
+  const outputPath = resolve(__dirname, 'dist', filename);
+  writeFileSync(outputPath, sitemapXML.toString());
+
+  console.log(`📄 Generated: ${filename} (${urls.length} URLs)`);
+  return filename;
+}
+
+/**
+ * Generate sitemap index file
+ */
+async function generateSitemapIndex(sitemapFiles) {
+  const sitemapIndex = new SitemapIndexStream();
+
+  for (const file of sitemapFiles) {
+    sitemapIndex.write({
+      url: `${hostname}/${file}`,
+      lastmod: new Date().toISOString()
+    });
+  }
+
+  sitemapIndex.end();
+
+  const indexXML = await streamToPromise(sitemapIndex);
+  const outputPath = resolve(__dirname, 'dist', 'sitemap.xml');
+  writeFileSync(outputPath, indexXML.toString());
+
+  console.log(`📋 Generated: sitemap.xml (index with ${sitemapFiles.length} sitemaps)`);
+}
+
+async function generateSitemapAndPrerender() {
+  const now = new Date().toISOString();
   const prerenderRoutes = [];
-  
-  // Static pages with their priorities and change frequencies
+  const sitemapFiles = [];
+
+  // ============================================
+  // 1. STATIC PAGES SITEMAP
+  // ============================================
+  console.log('\n📦 Generating sitemap-pages.xml...');
+
   const staticPages = [
     { url: '/', changefreq: 'daily', priority: 1.0, outputPath: 'dist/index.html' },
     { url: '/devis', changefreq: 'weekly', priority: 0.9, outputPath: 'dist/devis/index.html' },
@@ -97,105 +141,147 @@ async function generateSitemapAndPrerender() {
     { url: '/politique-confidentialite', changefreq: 'yearly', priority: 0.5, outputPath: 'dist/politique-confidentialite/index.html' },
     { url: '/mentions-legales', changefreq: 'yearly', priority: 0.5, outputPath: 'dist/mentions-legales/index.html' }
   ];
-  
-  // Add static pages to sitemap and prerender them
+
+  const staticUrls = [];
   for (const page of staticPages) {
-    sitemap.write({
+    staticUrls.push({
       url: page.url,
       changefreq: page.changefreq,
       priority: page.priority,
-      lastmod: new Date().toISOString()
+      lastmod: now
     });
-    
     prerenderRoutes.push(page.url);
-    
-    // Prerender the page
     const outputPath = resolve(__dirname, page.outputPath);
     prerenderRoute(page.url, outputPath);
   }
-  
-  // Add blog pages to sitemap and prerender them
-  const blogPages = [
-    { url: '/blog', outputPath: 'dist/blog/index.html' }
+
+  await generateSitemap(staticUrls, 'sitemap-pages.xml');
+  sitemapFiles.push('sitemap-pages.xml');
+
+  // ============================================
+  // 2. BLOG SITEMAP
+  // ============================================
+  console.log('\n📦 Generating sitemap-blog.xml...');
+
+  const blogArticles = [
+    'signification-reve-renovation-maison',
+    'cout-renovation-appartement-haussmannien',
+    'annulation-devis-signe-sans-acompte',
+    'renovation-piscine-silico-marbreux',
+    'devis-signe-sans-date-travaux',
+    'rever-ancienne-maison',
+    'rever-acheter-maison',
+    'rever-intrusion-maison',
+    'rever-grande-maison',
+    'clim-couloir-refroidir-chambres',
+    'choisir-son-artisan',
+    'renovation-energetique-vendee',
+    'travaux-hiver-vendee',
+    'budget-travaux-2025'
   ];
-  
-  for (const blogPage of blogPages) {
-    sitemap.write({
-      url: blogPage.url,
+
+  const blogUrls = [
+    { url: '/blog', changefreq: 'weekly', priority: 0.8, lastmod: now }
+  ];
+
+  // Prerender blog listing page
+  prerenderRoutes.push('/blog');
+  prerenderRoute('/blog', resolve(__dirname, 'dist/blog/index.html'));
+
+  for (const slug of blogArticles) {
+    blogUrls.push({
+      url: `/blog/${slug}`,
       changefreq: 'monthly',
-      priority: blogPage.url === '/blog' ? 0.8 : 0.6,
-      lastmod: new Date().toISOString()
+      priority: 0.6,
+      lastmod: now
     });
-    
-    prerenderRoutes.push(blogPage.url);
-    
-    // Prerender the blog page
-    const outputPath = resolve(__dirname, blogPage.outputPath);
-    prerenderRoute(blogPage.url, outputPath);
   }
-  
-  // Add trade pages for Vendée (/:tradeSlug/vendee)
+
+  await generateSitemap(blogUrls, 'sitemap-blog.xml');
+  sitemapFiles.push('sitemap-blog.xml');
+
+  // ============================================
+  // 3. TRADE PAGES (VENDÉE) SITEMAP
+  // ============================================
+  console.log('\n📦 Generating sitemap-metiers.xml...');
+
+  const metierUrls = [];
   for (const metier of metiers) {
     const url = `/${metier.slug}/vendee`;
-    sitemap.write({
+    metierUrls.push({
       url: url,
       changefreq: 'weekly',
       priority: 0.8,
-      lastmod: new Date().toISOString()
+      lastmod: now
     });
-    
     prerenderRoutes.push(url);
-    
-    // Prerender the page
     const outputPath = resolve(__dirname, `dist/${metier.slug}/vendee/index.html`);
     prerenderRoute(url, outputPath);
   }
-  
-  // Add all trade + city pages (/:tradeSlug/:citySlug)
+
+  await generateSitemap(metierUrls, 'sitemap-metiers.xml');
+  sitemapFiles.push('sitemap-metiers.xml');
+
+  // ============================================
+  // 4. TRADE + CITY PAGES SITEMAP
+  // ============================================
+  console.log('\n📦 Generating sitemap-metiers-villes.xml...');
+
+  const metierVilleUrls = [];
   for (const metier of metiers) {
     for (const ville of villes) {
       const url = `/${metier.slug}/${ville.slug}`;
-      sitemap.write({
+      metierVilleUrls.push({
         url: url,
         changefreq: 'weekly',
         priority: 0.7,
-        lastmod: new Date().toISOString()
+        lastmod: now
       });
-      
       prerenderRoutes.push(url);
-      
-      // Prerender the page
       const outputPath = resolve(__dirname, `dist/${metier.slug}/${ville.slug}/index.html`);
       prerenderRoute(url, outputPath);
     }
   }
-  
-  // End the stream
-  sitemap.end();
-  
-  // Generate the sitemap and save it
-  const sitemapXML = await streamToPromise(sitemap);
-  
-  // Write sitemap to dist folder
-  const distPath = resolve(__dirname, 'dist', 'sitemap.xml');
-  writeFileSync(distPath, sitemapXML.toString());
-  
-  // Write prerender routes file for reference
+
+  await generateSitemap(metierVilleUrls, 'sitemap-metiers-villes.xml');
+  sitemapFiles.push('sitemap-metiers-villes.xml');
+
+  // ============================================
+  // 5. GENERATE SITEMAP INDEX
+  // ============================================
+  console.log('\n📦 Generating sitemap.xml (index)...');
+  await generateSitemapIndex(sitemapFiles);
+
+  // ============================================
+  // 6. WRITE PRERENDER ROUTES FILE
+  // ============================================
   const prerenderRoutesPath = resolve(__dirname, 'dist', 'prerender-routes.txt');
   writeFileSync(prerenderRoutesPath, prerenderRoutes.join('\n'));
-  
+
+  // ============================================
+  // SUMMARY
+  // ============================================
   console.log('');
-  console.log('🎉 Build completed successfully!');
-  console.log(`📍 Sitemap location: ${distPath}`);
-  console.log(`📍 Prerender routes location: ${prerenderRoutesPath}`);
-  console.log(`📊 Total URLs: ${prerenderRoutes.length}`);
-  console.log('   - Static pages:', staticPages.length);
-  console.log('   - Blog pages:', blogPages.length);
-  console.log('   - Trade pages (Vendée):', metiers.length);
-  console.log('   - Trade + City pages:', metiers.length * villes.length);
+  console.log('═══════════════════════════════════════════════════════════');
+  console.log('🎉 BUILD COMPLETED SUCCESSFULLY!');
+  console.log('═══════════════════════════════════════════════════════════');
+  console.log('');
+  console.log('📋 Sitemaps generated:');
+  console.log('   └─ sitemap.xml (index)');
+  console.log(`      ├─ sitemap-pages.xml (${staticUrls.length} URLs)`);
+  console.log(`      ├─ sitemap-blog.xml (${blogUrls.length} URLs)`);
+  console.log(`      ├─ sitemap-metiers.xml (${metierUrls.length} URLs)`);
+  console.log(`      └─ sitemap-metiers-villes.xml (${metierVilleUrls.length} URLs)`);
+  console.log('');
+  console.log(`📊 Total: ${prerenderRoutes.length} pages prerendered`);
   console.log('');
   console.log('✅ All pages have been prerendered with full HTML content!');
   console.log('🔍 SEO crawlers will now see complete HTML for every page.');
+  console.log('');
+  console.log('📌 Next steps:');
+  console.log('   1. Deploy to Vercel');
+  console.log('   2. Submit sitemap.xml to Google Search Console');
+  console.log('   3. Monitor indexation per sitemap section');
 }
 
 // Run the generator

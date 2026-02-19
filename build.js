@@ -1,7 +1,7 @@
 import { spawn } from 'child_process';
 import { fileURLToPath } from 'url';
 import { dirname, resolve } from 'path';
-import { readFileSync, writeFileSync, mkdirSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'fs';
 import { SitemapStream, streamToPromise, SitemapIndexStream } from 'sitemap';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -328,10 +328,14 @@ async function generateSitemaps() {
   ];
   sitemapFiles.push(await writeSitemap(staticUrls, 'sitemap-pages.xml'));
 
-  // Blog
+  // Blog - scan all HTML files from public/blog
+  const blogDir = resolve(__dirname, 'public/blog');
+  const blogFiles = readdirSync(blogDir).filter(f => f.endsWith('.html') && f !== 'index.html');
+  const allBlogSlugs = blogFiles.map(f => f.replace('.html', ''));
+
   const blogUrls = [
     { url: '/blog', changefreq: 'weekly', priority: 0.8, lastmod: now },
-    ...blogArticles.map(slug => ({ url: `/blog/${slug}`, changefreq: 'monthly', priority: 0.6, lastmod: now }))
+    ...allBlogSlugs.map(slug => ({ url: `/blog/${slug}`, changefreq: 'monthly', priority: 0.6, lastmod: now }))
   ];
   sitemapFiles.push(await writeSitemap(blogUrls, 'sitemap-blog.xml'));
 
@@ -454,6 +458,159 @@ async function prerenderAllPages() {
   return { total, failed };
 }
 
+// Process static blog HTML files (from public/blog/)
+function processBlogStaticFiles() {
+  const blogDir = resolve(__dirname, 'dist/blog');
+  const files = readdirSync(blogDir).filter(f => f.endsWith('.html') && f !== 'index.html');
+
+  console.log('\n🔧 Processing static blog HTML files...');
+  let processed = 0;
+
+  // Header HTML template
+  const headerHtml = `
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="header-logo">
+      <div class="logo-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+        </svg>
+      </div>
+      <div class="logo-text">
+        <h1>Quel Artisan 85</h1>
+        <p>Artisans fiables en Vendée</p>
+      </div>
+    </a>
+    <nav class="header-nav">
+      <a href="/">Accueil</a>
+      <a href="/blog">Blog</a>
+      <a href="/charte">Notre charte</a>
+      <a href="/devis" class="header-cta">Devis gratuit</a>
+    </nav>
+  </div>
+</header>`;
+
+  // Footer HTML template
+  const footerHtml = `
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h3>Quel Artisan 85</h3>
+      <p style="color: #9ca3af; margin: 0;">Votre plateforme de mise en relation avec des artisans qualifiés en Vendée.</p>
+      <a href="/devis" class="footer-cta">Demander un devis</a>
+    </div>
+    <div>
+      <h3>Navigation</h3>
+      <ul>
+        <li><a href="/">Accueil</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/charte">Notre charte</a></li>
+        <li><a href="/devis">Demander un devis</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Informations légales</h3>
+      <ul>
+        <li><a href="/mentions-legales">Mentions légales</a></li>
+        <li><a href="/politique-confidentialite">Politique de confidentialité</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>© ${new Date().getFullYear()} Quel Artisan 85 - Tous droits réservés</p>
+    </div>
+  </div>
+</footer>`;
+
+  for (const file of files) {
+    const filePath = resolve(blogDir, file);
+    let html = readFileSync(filePath, 'utf8');
+    const slug = file.replace('.html', '');
+    const url = `/blog/${slug}`;
+    const canonical = `${SITE_URL}${url}`;
+
+    // Extract existing title and description
+    const titleMatch = html.match(/<title>([^<]*)<\/title>/);
+    const descMatch = html.match(/<meta name="description" content="([^"]*)"/);
+    const title = titleMatch ? titleMatch[1] : `${slug.replace(/-/g, ' ')} - Blog Quel Artisan 85`;
+    const description = descMatch ? descMatch[1] : `Article sur ${slug.replace(/-/g, ' ')}`;
+
+    // Extract featured image if exists
+    const imgMatch = html.match(/class="article-featured-image"[^>]*src="([^"]*)"/);
+    const image = imgMatch ? imgMatch[1] : `${SITE_URL}/favicon.svg`;
+
+    // Build SEO tags to inject
+    const seoTags = `
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href="${canonical}" />
+    <meta property="og:title" content="${title}" />
+    <meta property="og:description" content="${description}" />
+    <meta property="og:url" content="${canonical}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="${image}" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Quel Artisan 85" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="${title}" />
+    <meta name="twitter:description" content="${description}" />
+    <meta name="twitter:image" content="${image}" />`;
+
+    // Build JSON-LD
+    const jsonLd = [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'Quel Artisan 85',
+        url: SITE_URL,
+        logo: `${SITE_URL}/favicon.svg`
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: title,
+        description: description,
+        url: canonical,
+        image: image,
+        author: { '@type': 'Organization', name: 'Quel Artisan 85' },
+        publisher: { '@type': 'Organization', name: 'Quel Artisan 85', logo: { '@type': 'ImageObject', url: `${SITE_URL}/favicon.svg` } },
+        datePublished: new Date().toISOString(),
+        dateModified: new Date().toISOString()
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Accueil', item: SITE_URL },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE_URL}/blog` },
+          { '@type': 'ListItem', position: 3, name: title, item: canonical }
+        ]
+      }
+    ];
+    const jsonLdScript = `<script type="application/ld+json">\n${JSON.stringify(jsonLd, null, 2)}\n    </script>`;
+
+    // Inject SEO tags after meta description
+    if (html.includes('<meta name="description"')) {
+      html = html.replace(
+        /(<meta name="description" content="[^"]*"[^>]*>)/,
+        `$1${seoTags}\n    ${jsonLdScript}`
+      );
+    } else {
+      html = html.replace('</head>', `${seoTags}\n    ${jsonLdScript}\n</head>`);
+    }
+
+    // Inject header after <body> tag
+    html = html.replace(/<body>/, `<body>\n${headerHtml}`);
+
+    // Inject footer before </body> tag
+    html = html.replace(/<\/body>/, `${footerHtml}\n</body>`);
+
+    writeFileSync(filePath, html, 'utf8');
+    processed++;
+  }
+
+  console.log(`   ✅ ${processed} static blog files processed`);
+  return processed;
+}
+
 // Main build
 async function build() {
   try {
@@ -461,21 +618,25 @@ async function build() {
     console.log(`\n📊 Expected: ${expectedPages} pages\n`);
 
     // Step 1: Client build
-    console.log('📦 Step 1/4: Building client...');
+    console.log('📦 Step 1/5: Building client...');
     await runCommand('npx', ['vite', 'build']);
     console.log('✅ Client build done\n');
 
     // Step 2: SSR build
-    console.log('📦 Step 2/4: Building SSR...');
+    console.log('📦 Step 2/5: Building SSR...');
     await runCommand('npx', ['vite', 'build'], { SSR: 'true' });
     console.log('✅ SSR build done\n');
 
     // Step 3: Generate sitemaps
-    console.log('📦 Step 3/4: Generating sitemaps...');
+    console.log('📦 Step 3/5: Generating sitemaps...');
     await generateSitemaps();
 
-    // Step 4: Prerender pages
-    console.log('\n📦 Step 4/4: Prerendering pages...');
+    // Step 4: Process static blog files
+    console.log('\n📦 Step 4/5: Processing static blog files...');
+    processBlogStaticFiles();
+
+    // Step 5: Prerender pages
+    console.log('\n📦 Step 5/5: Prerendering pages...');
     const { total, failed } = await prerenderAllPages();
 
     console.log('\n🎉 BUILD COMPLETED!');

@@ -491,6 +491,58 @@ function processBlogStaticFiles() {
   return processed;
 }
 
+// Inject blog content into prerendered pages for SEO
+function injectBlogContent() {
+  const publicBlogDir = resolve(__dirname, 'public/blog');
+  const distBlogDir = resolve(__dirname, 'dist/blog');
+
+  console.log('\n🔧 Injecting blog content into prerendered pages...');
+  let injected = 0;
+
+  // CSS styles for blog content (from BlogPage.tsx)
+  const blogStyles = `.blog-content h1{font-size:2rem;font-weight:700;color:#111827;margin-bottom:1.5rem;line-height:1.2}.blog-content h2{font-size:1.875rem;font-weight:700;color:#111827;margin-bottom:1.5rem;margin-top:3rem;line-height:1.2}.blog-content h2:first-of-type{margin-top:2rem}.blog-content h3{font-size:1.25rem;font-weight:600;color:#ea580c;margin-bottom:1rem;margin-top:2rem;line-height:1.3}.blog-content p{color:#374151;line-height:1.7;margin-bottom:1.5rem;font-size:1rem}.blog-content p.lead{font-size:1.25rem;color:#4b5563;font-weight:500;margin-bottom:2rem;line-height:1.6}.blog-content ul,.blog-content ol{margin-bottom:1.5rem;padding-left:1.5rem}.blog-content li{color:#374151;line-height:1.6;margin-bottom:0.5rem}.blog-content strong{font-weight:600;color:#111827}.blog-content .breadcrumb{margin-bottom:2rem;font-size:0.875rem;color:#6b7280}.blog-content .breadcrumb a{color:#3b82f6;text-decoration:none}.blog-content .article-header{margin-bottom:3rem}.blog-content .article-category{display:inline-block;background:linear-gradient(to right,#f97316,#dc2626);color:white;padding:0.5rem 1rem;border-radius:9999px;font-size:0.875rem;font-weight:600;margin-bottom:1rem}.blog-content .article-meta{display:flex;flex-wrap:wrap;gap:1rem;font-size:0.875rem;color:#6b7280;margin-bottom:2rem}.blog-content .article-featured-image{width:100%;height:300px;object-fit:cover;border-radius:1rem;margin-bottom:2rem}.blog-content .article-conclusion{background:linear-gradient(to right,#dbeafe,#e0e7ff);border:1px solid #bfdbfe;border-radius:1rem;padding:2rem;margin:3rem 0}.blog-content .article-conclusion h3{color:#1e40af;margin-top:0}.blog-content .article-cta{background:linear-gradient(to right,#fed7aa,#fecaca);border:1px solid #fdba74;border-radius:1rem;padding:2rem;text-align:center;margin:3rem 0}.blog-content .article-cta h3{color:#c2410c;margin-top:0;margin-bottom:1rem}.blog-content .cta-button{display:inline-flex;align-items:center;background:linear-gradient(to right,#f97316,#dc2626);color:white;padding:1rem 2rem;border-radius:1rem;text-decoration:none;font-weight:600;margin-top:1rem}.blog-content .price-table{width:100%;border-collapse:collapse;margin:1.5rem 0;background:white;border-radius:0.5rem;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1)}.blog-content .price-table td{padding:1rem;border-bottom:1px solid #e5e7eb}.blog-content .price-table td:first-child{background:#f9fafb;font-weight:500;color:#374151}.blog-content .price-table td:last-child{font-weight:600;color:#059669;text-align:right}`;
+
+  for (const slug of blogArticles) {
+    const publicFile = resolve(publicBlogDir, `${slug}.html`);
+    const prerenderedFile = resolve(distBlogDir, slug, 'index.html');
+
+    try {
+      // Read the source content
+      const sourceHtml = readFileSync(publicFile, 'utf8');
+
+      // Extract .blog-content innerHTML
+      const blogContentMatch = sourceHtml.match(/<div class="blog-content">([\s\S]*?)<\/div>\s*<\/body>/);
+      if (!blogContentMatch) {
+        console.error(`   ❌ ${slug}: Could not extract blog-content`);
+        continue;
+      }
+      const blogContentInner = blogContentMatch[1];
+
+      // Read the prerendered page
+      let prerenderedHtml = readFileSync(prerenderedFile, 'utf8');
+
+      // Create the replacement content with styles
+      const articleContent = `<div class="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden"><div class="p-8 lg:p-12"><style>${blogStyles}</style><div class="blog-content prose prose-lg max-w-none">${blogContentInner}</div></div></div>`;
+
+      // Replace the loading spinner div with actual content
+      const loadingPattern = /<div class="bg-white rounded-3xl shadow-xl border border-gray-100 p-12 text-center"><div class="animate-spin[^"]*"[^>]*><\/div><p class="text-gray-600">Chargement de l[^<]*<\/p><\/div>/;
+
+      if (loadingPattern.test(prerenderedHtml)) {
+        prerenderedHtml = prerenderedHtml.replace(loadingPattern, articleContent);
+        writeFileSync(prerenderedFile, prerenderedHtml, 'utf8');
+        injected++;
+      } else {
+        console.error(`   ⚠️ ${slug}: Loading spinner pattern not found`);
+      }
+    } catch (error) {
+      console.error(`   ❌ ${slug}: ${error.message}`);
+    }
+  }
+
+  console.log(`   ✅ ${injected} blog articles injected with content`);
+  return injected;
+}
+
 // Main build
 async function build() {
   try {
@@ -498,26 +550,30 @@ async function build() {
     console.log(`\n📊 Expected: ${expectedPages} pages\n`);
 
     // Step 1: Client build
-    console.log('📦 Step 1/5: Building client...');
+    console.log('📦 Step 1/6: Building client...');
     await runCommand('npx', ['vite', 'build']);
     console.log('✅ Client build done\n');
 
     // Step 2: SSR build
-    console.log('📦 Step 2/5: Building SSR...');
+    console.log('📦 Step 2/6: Building SSR...');
     await runCommand('npx', ['vite', 'build'], { SSR: 'true' });
     console.log('✅ SSR build done\n');
 
     // Step 3: Generate sitemaps
-    console.log('📦 Step 3/5: Generating sitemaps...');
+    console.log('📦 Step 3/6: Generating sitemaps...');
     await generateSitemaps();
 
     // Step 4: Process static blog files
-    console.log('\n📦 Step 4/5: Processing static blog files...');
+    console.log('\n📦 Step 4/6: Processing static blog files...');
     processBlogStaticFiles();
 
     // Step 5: Prerender pages
-    console.log('\n📦 Step 5/5: Prerendering pages...');
+    console.log('\n📦 Step 5/6: Prerendering pages...');
     const { total, failed } = await prerenderAllPages();
+
+    // Step 6: Inject blog content
+    console.log('\n📦 Step 6/6: Injecting blog content...');
+    injectBlogContent();
 
     console.log('\n🎉 BUILD COMPLETED!');
     console.log(`📊 Total: ${total} pages prerendered`);

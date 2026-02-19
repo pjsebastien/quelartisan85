@@ -19,12 +19,9 @@
 /cout-renovation-piscine-carrelee/ /piscine/vendee 301
 
 # Redirections pour les pages principales
-# Redirections spécifiques pour les fichiers HTML du blog
-/blog/*.html /index.html 200
+# Les fichiers statiques du blog sont servis directement
+# Pas de redirection pour les fichiers .html existants
 
-# Redirections pour le blog
-/blog/* /index.html 200
-
-# Redirections pour les pages principales
+# Fallback pour le SPA React (toutes les autres URLs)
 /* /index.html 200
 

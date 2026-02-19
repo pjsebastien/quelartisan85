@@ -6,48 +6,166 @@ import { SitemapStream, streamToPromise, SitemapIndexStream } from 'sitemap';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-console.log('🚀 Starting build process...\n');
+// Load data once
+const metiers = JSON.parse(readFileSync('./src/data/metiers.json', 'utf8'));
+const villes = JSON.parse(readFileSync('./src/data/villes.json', 'utf8'));
 
-// Function to run a command
+// Create lookup maps for fast access
+const metiersBySlug = new Map(metiers.map(m => [m.slug, m]));
+const villesBySlug = new Map(villes.map(v => [v.slug, v]));
+
+console.log('🚀 Starting build process...\n');
+console.log(`📊 Data loaded: ${metiers.length} métiers, ${villes.length} villes`);
+
+// Blog articles list
+const blogArticles = [
+  'signification-reve-renovation-maison',
+  'cout-renovation-appartement-haussmannien',
+  'annulation-devis-signe-sans-acompte',
+  'renovation-piscine-silico-marbreux',
+  'devis-signe-sans-date-travaux',
+  'rever-ancienne-maison',
+  'rever-acheter-maison',
+  'rever-intrusion-maison',
+  'rever-grande-maison',
+  'clim-couloir-refroidir-chambres',
+  'choisir-son-artisan',
+  'renovation-energetique-vendee',
+  'travaux-hiver-vendee',
+  'budget-travaux-2025'
+];
+
+// Generate SEO metadata based on URL
+function generateSEOMetadata(url) {
+  const SITE_URL = 'https://www.quelartisan85.fr';
+
+  // Homepage
+  if (url === '/') {
+    return {
+      title: 'Quel Artisan 85 - Devis gratuits d\'artisans en Vendée - 2 min chrono !',
+      description: 'Trouvez rapidement un artisan fiable en Vendée (85). Devis gratuits pour tous vos travaux : plomberie, électricité, toiture, isolation. Plus de 500 artisans partenaires.',
+      canonical: SITE_URL
+    };
+  }
+
+  // Devis page
+  if (url === '/devis') {
+    return {
+      title: 'Demande de devis gratuit - Artisans en Vendée (85) - Quel Artisan 85',
+      description: 'Demandez votre devis gratuit d\'artisans en Vendée. Service rapide, artisans vérifiés.',
+      canonical: `${SITE_URL}/devis`
+    };
+  }
+
+  // Charte page
+  if (url === '/charte') {
+    return {
+      title: 'Charte qualité - Quel Artisan 85',
+      description: 'Découvrez notre charte qualité pour les artisans en Vendée.',
+      canonical: `${SITE_URL}/charte`
+    };
+  }
+
+  // Privacy page
+  if (url === '/politique-confidentialite') {
+    return {
+      title: 'Politique de confidentialité - Quel Artisan 85',
+      description: 'Politique de confidentialité et protection des données de Quel Artisan 85.',
+      canonical: `${SITE_URL}/politique-confidentialite`
+    };
+  }
+
+  // Legal page
+  if (url === '/mentions-legales') {
+    return {
+      title: 'Mentions légales - Quel Artisan 85',
+      description: 'Mentions légales du site Quel Artisan 85.',
+      canonical: `${SITE_URL}/mentions-legales`
+    };
+  }
+
+  // Blog listing
+  if (url === '/blog') {
+    return {
+      title: 'Blog - Conseils d\'experts artisans en Vendée - Quel Artisan 85',
+      description: 'Découvrez nos conseils d\'experts pour vos travaux en Vendée.',
+      canonical: `${SITE_URL}/blog`
+    };
+  }
+
+  // Blog article
+  if (url.startsWith('/blog/')) {
+    const slug = url.replace('/blog/', '');
+    return {
+      title: `${slug.replace(/-/g, ' ')} - Blog Quel Artisan 85`,
+      description: `Article sur ${slug.replace(/-/g, ' ')} - Conseils et informations.`,
+      canonical: `${SITE_URL}${url}`
+    };
+  }
+
+  // Trade page (métier/vendee)
+  const tradeMatch = url.match(/^\/([^/]+)\/vendee$/);
+  if (tradeMatch) {
+    const tradeSlug = tradeMatch[1];
+    const metier = metiersBySlug.get(tradeSlug);
+    if (metier) {
+      return {
+        title: `${metier.nom} en Vendée (85) - Devis gratuit - Quel Artisan 85`,
+        description: `Trouvez un ${metier.nom.toLowerCase()} qualifié en Vendée. Devis gratuits et rapides. Artisans certifiés près de chez vous.`,
+        canonical: `${SITE_URL}/${tradeSlug}/vendee`
+      };
+    }
+  }
+
+  // Trade + City page (métier/ville)
+  const tradeCityMatch = url.match(/^\/([^/]+)\/([^/]+)$/);
+  if (tradeCityMatch) {
+    const [, tradeSlug, citySlug] = tradeCityMatch;
+    if (citySlug !== 'vendee') {
+      const metier = metiersBySlug.get(tradeSlug);
+      const ville = villesBySlug.get(citySlug);
+      if (metier && ville) {
+        return {
+          title: `${metier.nom} à ${ville.nom} (${ville.code_postal}) - Devis gratuit en 2 min !`,
+          description: `Trouvez un ${metier.nom.toLowerCase()} qualifié à ${ville.nom} (${ville.code_postal}). Devis gratuits et rapides. Artisans certifiés près de chez vous en Vendée.`,
+          canonical: `${SITE_URL}/${tradeSlug}/${citySlug}`
+        };
+      }
+    }
+  }
+
+  // Default fallback
+  return {
+    title: 'Quel Artisan 85 - Artisans en Vendée',
+    description: 'Trouvez un artisan qualifié en Vendée (85).',
+    canonical: `${SITE_URL}${url}`
+  };
+}
+
+// Run shell command
 function runCommand(command, args, env = {}) {
   return new Promise((resolve, reject) => {
     console.log(`📦 Running: ${command} ${args.join(' ')}`);
-
     const child = spawn(command, args, {
       cwd: __dirname,
       env: { ...process.env, ...env },
       stdio: 'inherit',
       shell: true
     });
-
-    child.on('close', (code) => {
-      if (code !== 0) {
-        reject(new Error(`Command failed with code ${code}`));
-      } else {
-        resolve();
-      }
-    });
-
-    child.on('error', (err) => {
-      reject(err);
-    });
+    child.on('close', code => code !== 0 ? reject(new Error(`Exit code ${code}`)) : resolve());
+    child.on('error', reject);
   });
 }
 
-// Generate sitemap files
-async function generateSitemaps(metiers, villes) {
+// Generate sitemaps
+async function generateSitemaps() {
   const hostname = 'https://www.quelartisan85.fr';
   const now = new Date().toISOString();
-
-  console.log(`\n📊 Data: ${metiers.length} métiers, ${villes.length} villes`);
-
   const sitemapFiles = [];
 
   async function writeSitemap(urls, filename) {
     const sitemap = new SitemapStream({ hostname });
-    for (const urlData of urls) {
-      sitemap.write(urlData);
-    }
+    urls.forEach(u => sitemap.write(u));
     sitemap.end();
     const xml = await streamToPromise(sitemap);
     writeFileSync(resolve(__dirname, 'dist', filename), xml.toString());
@@ -55,8 +173,9 @@ async function generateSitemaps(metiers, villes) {
     return filename;
   }
 
-  // 1. Static pages
-  console.log('\n📄 Generating sitemap-pages.xml...');
+  console.log('\n📄 Generating sitemaps...');
+
+  // Static pages
   const staticUrls = [
     { url: '/', changefreq: 'daily', priority: 1.0, lastmod: now },
     { url: '/devis', changefreq: 'weekly', priority: 0.9, lastmod: now },
@@ -66,78 +185,38 @@ async function generateSitemaps(metiers, villes) {
   ];
   sitemapFiles.push(await writeSitemap(staticUrls, 'sitemap-pages.xml'));
 
-  // 2. Blog
-  console.log('\n📄 Generating sitemap-blog.xml...');
-  const blogArticles = [
-    'signification-reve-renovation-maison',
-    'cout-renovation-appartement-haussmannien',
-    'annulation-devis-signe-sans-acompte',
-    'renovation-piscine-silico-marbreux',
-    'devis-signe-sans-date-travaux',
-    'rever-ancienne-maison',
-    'rever-acheter-maison',
-    'rever-intrusion-maison',
-    'rever-grande-maison',
-    'clim-couloir-refroidir-chambres',
-    'choisir-son-artisan',
-    'renovation-energetique-vendee',
-    'travaux-hiver-vendee',
-    'budget-travaux-2025'
-  ];
+  // Blog
   const blogUrls = [
     { url: '/blog', changefreq: 'weekly', priority: 0.8, lastmod: now },
-    ...blogArticles.map(slug => ({
-      url: `/blog/${slug}`,
-      changefreq: 'monthly',
-      priority: 0.6,
-      lastmod: now
-    }))
+    ...blogArticles.map(slug => ({ url: `/blog/${slug}`, changefreq: 'monthly', priority: 0.6, lastmod: now }))
   ];
   sitemapFiles.push(await writeSitemap(blogUrls, 'sitemap-blog.xml'));
 
-  // 3. Métiers (Vendée only)
-  console.log('\n📄 Generating sitemap-metiers.xml...');
-  const metierUrls = metiers.map(metier => ({
-    url: `/${metier.slug}/vendee`,
-    changefreq: 'weekly',
-    priority: 0.8,
-    lastmod: now
-  }));
+  // Métiers/Vendée
+  const metierUrls = metiers.map(m => ({ url: `/${m.slug}/vendee`, changefreq: 'weekly', priority: 0.8, lastmod: now }));
   sitemapFiles.push(await writeSitemap(metierUrls, 'sitemap-metiers.xml'));
 
-  // 4. Métiers + Villes
-  console.log('\n📄 Generating sitemap-metiers-villes.xml...');
+  // Métiers + Villes
   const metierVilleUrls = [];
-  for (const metier of metiers) {
-    for (const ville of villes) {
-      metierVilleUrls.push({
-        url: `/${metier.slug}/${ville.slug}`,
-        changefreq: 'weekly',
-        priority: 0.7,
-        lastmod: now
-      });
-    }
-  }
+  metiers.forEach(m => villes.forEach(v => {
+    metierVilleUrls.push({ url: `/${m.slug}/${v.slug}`, changefreq: 'weekly', priority: 0.7, lastmod: now });
+  }));
   sitemapFiles.push(await writeSitemap(metierVilleUrls, 'sitemap-metiers-villes.xml'));
 
-  // 5. Sitemap index
-  console.log('\n📄 Generating sitemap.xml (index)...');
+  // Index
   const sitemapIndex = new SitemapIndexStream();
-  for (const file of sitemapFiles) {
-    sitemapIndex.write({ url: `${hostname}/${file}`, lastmod: now });
-  }
+  sitemapFiles.forEach(f => sitemapIndex.write({ url: `${hostname}/${f}`, lastmod: now }));
   sitemapIndex.end();
   const indexXml = await streamToPromise(sitemapIndex);
   writeFileSync(resolve(__dirname, 'dist', 'sitemap.xml'), indexXml.toString());
 
   const total = staticUrls.length + blogUrls.length + metierUrls.length + metierVilleUrls.length;
-  console.log(`\n✅ Sitemaps générés: ${total} URLs total`);
-
-  return { staticUrls, blogUrls, metierUrls, metierVilleUrls, blogArticles };
+  console.log(`\n✅ Sitemaps: ${total} URLs total`);
+  return { staticUrls, blogUrls, metierUrls, metierVilleUrls };
 }
 
-// Prerender ALL pages with batch processing to manage memory
-async function prerenderAllPages(metiers, villes, blogArticles) {
+// Prerender all pages
+async function prerenderAllPages() {
   let render;
   try {
     const ssrModule = await import('./dist-ssr/entry-server.js');
@@ -145,157 +224,108 @@ async function prerenderAllPages(metiers, villes, blogArticles) {
     console.log('\n✅ SSR module loaded');
   } catch (error) {
     console.error('❌ SSR module failed:', error.message);
-    return;
+    return { total: 0, failed: 0 };
   }
 
   const baseHtml = readFileSync(resolve(__dirname, 'dist/index.html'), 'utf8');
-  let totalPages = 0;
-  let failedPages = 0;
+  let total = 0, failed = 0;
 
   function prerenderPage(url, outputPath) {
     try {
       const appHtml = render(url);
-      const titleMatch = appHtml.match(/<title[^>]*>([^<]*)<\/title>/i);
-      const metaMatch = appHtml.match(/<meta\s+name=["']description["']\s+content=["']([^"']*)["'][^>]*>/i);
+      const seo = generateSEOMetadata(url);
 
-      let finalHtml = baseHtml
+      let html = baseHtml
         .replace('<!--app-html-->', appHtml)
-        .replace(/<title[^>]*>([^<]*)<\/title>/i, `<title>${titleMatch?.[1] || 'Quel Artisan 85'}</title>`)
-        .replace(/<meta\s+name=["']description["']\s+content=["'][^"']*["'][^>]*>/i,
-          `<meta name="description" content="${metaMatch?.[1] || 'Trouvez un artisan en Vendée'}" />`);
+        .replace(/<title>[^<]*<\/title>/, `<title>${seo.title}</title>`)
+        .replace(/<meta name="description" content="[^"]*"/, `<meta name="description" content="${seo.description}"`);
 
-      const outputDir = dirname(outputPath);
-      mkdirSync(outputDir, { recursive: true });
-      writeFileSync(outputPath, finalHtml, 'utf8');
-      totalPages++;
+      // Add canonical link if not present
+      if (!html.includes('rel="canonical"')) {
+        html = html.replace('</head>', `<link rel="canonical" href="${seo.canonical}" />\n</head>`);
+      }
+
+      mkdirSync(dirname(outputPath), { recursive: true });
+      writeFileSync(outputPath, html, 'utf8');
+      total++;
       return true;
     } catch (error) {
-      failedPages++;
+      console.error(`   ❌ ${url}: ${error.message}`);
+      failed++;
       return false;
     }
   }
 
-  // Force garbage collection if available
-  function tryGC() {
-    if (global.gc) {
-      global.gc();
-    }
-  }
-
-  // ==========================================
-  // 1. STATIC PAGES
-  // ==========================================
+  // Static pages
   console.log('\n🔧 Prerendering static pages...');
-  const staticPages = [
-    { url: '/', path: 'dist/index.html' },
-    { url: '/devis', path: 'dist/devis/index.html' },
-    { url: '/charte', path: 'dist/charte/index.html' },
-    { url: '/politique-confidentialite', path: 'dist/politique-confidentialite/index.html' },
-    { url: '/mentions-legales', path: 'dist/mentions-legales/index.html' }
-  ];
+  [
+    ['/', 'dist/index.html'],
+    ['/devis', 'dist/devis/index.html'],
+    ['/charte', 'dist/charte/index.html'],
+    ['/politique-confidentialite', 'dist/politique-confidentialite/index.html'],
+    ['/mentions-legales', 'dist/mentions-legales/index.html']
+  ].forEach(([url, path]) => prerenderPage(url, resolve(__dirname, path)));
+  console.log(`   ✅ 5 static pages`);
 
-  for (const page of staticPages) {
-    prerenderPage(page.url, resolve(__dirname, page.path));
-  }
-  console.log(`   ✅ ${staticPages.length} pages statiques`);
-
-  // ==========================================
-  // 2. BLOG PAGES
-  // ==========================================
+  // Blog pages
   console.log('\n🔧 Prerendering blog pages...');
   prerenderPage('/blog', resolve(__dirname, 'dist/blog/index.html'));
-  for (const slug of blogArticles) {
-    prerenderPage(`/blog/${slug}`, resolve(__dirname, `dist/blog/${slug}/index.html`));
-  }
-  console.log(`   ✅ ${blogArticles.length + 1} pages blog`);
-  tryGC();
+  blogArticles.forEach(slug => prerenderPage(`/blog/${slug}`, resolve(__dirname, `dist/blog/${slug}/index.html`)));
+  console.log(`   ✅ ${blogArticles.length + 1} blog pages`);
 
-  // ==========================================
-  // 3. MÉTIERS / VENDÉE PAGES (106 pages)
-  // ==========================================
-  console.log('\n🔧 Prerendering métiers/vendée pages...');
-  for (const metier of metiers) {
-    prerenderPage(`/${metier.slug}/vendee`, resolve(__dirname, `dist/${metier.slug}/vendee/index.html`));
-  }
-  console.log(`   ✅ ${metiers.length} pages métiers/vendée`);
-  tryGC();
+  // Métiers/Vendée
+  console.log('\n🔧 Prerendering métiers/vendée...');
+  metiers.forEach(m => prerenderPage(`/${m.slug}/vendee`, resolve(__dirname, `dist/${m.slug}/vendee/index.html`)));
+  console.log(`   ✅ ${metiers.length} métiers/vendée pages`);
 
-  // ==========================================
-  // 4. MÉTIERS + VILLES PAGES (7950 pages)
-  // Process in batches to manage memory
-  // ==========================================
-  console.log('\n🔧 Prerendering métiers+villes pages...');
-  const BATCH_SIZE = 100; // Process 100 pages at a time
-  let batchCount = 0;
-  let pageCount = 0;
-  const totalMetierVille = metiers.length * villes.length;
-
+  // Métiers + Villes (batch logging)
+  console.log('\n🔧 Prerendering métiers+villes...');
+  const totalMV = metiers.length * villes.length;
+  let count = 0;
   for (const metier of metiers) {
     for (const ville of villes) {
-      prerenderPage(
-        `/${metier.slug}/${ville.slug}`,
-        resolve(__dirname, `dist/${metier.slug}/${ville.slug}/index.html`)
-      );
-      pageCount++;
-      batchCount++;
-
-      // Every BATCH_SIZE pages, log progress and try to free memory
-      if (batchCount >= BATCH_SIZE) {
-        const percent = Math.round((pageCount / totalMetierVille) * 100);
-        console.log(`   📊 ${pageCount}/${totalMetierVille} (${percent}%) - ${metier.nom}...`);
-        batchCount = 0;
-        tryGC();
-
-        // Small delay to let Node.js breathe
-        await new Promise(r => setTimeout(r, 10));
-      }
+      prerenderPage(`/${metier.slug}/${ville.slug}`, resolve(__dirname, `dist/${metier.slug}/${ville.slug}/index.html`));
+      count++;
     }
+    // Log progress every métier
+    console.log(`   📊 ${count}/${totalMV} (${Math.round(count/totalMV*100)}%) - ${metier.nom}`);
   }
-  console.log(`   ✅ ${pageCount} pages métiers+villes`);
 
-  // ==========================================
-  // SUMMARY
-  // ==========================================
   console.log('\n═══════════════════════════════════════════════════════════');
-  console.log(`🎉 PRERENDERING COMPLETED!`);
-  console.log(`   ✅ ${totalPages} pages prérendues avec succès`);
-  if (failedPages > 0) {
-    console.log(`   ⚠️ ${failedPages} pages ont échoué`);
-  }
+  console.log(`🎉 PRERENDERING COMPLETED: ${total} pages`);
+  if (failed > 0) console.log(`⚠️  Failed: ${failed}`);
   console.log('═══════════════════════════════════════════════════════════');
+
+  return { total, failed };
 }
 
-// Main build function
+// Main build
 async function build() {
   try {
-    // Load data early
-    const metiers = JSON.parse(readFileSync('./src/data/metiers.json', 'utf8'));
-    const villes = JSON.parse(readFileSync('./src/data/villes.json', 'utf8'));
-
     const expectedPages = 5 + 15 + metiers.length + (metiers.length * villes.length);
-    console.log(`📊 Expected pages: ${expectedPages}`);
-    console.log(`   - 5 static + 15 blog + ${metiers.length} métiers + ${metiers.length * villes.length} métiers+villes\n`);
+    console.log(`\n📊 Expected: ${expectedPages} pages\n`);
 
     // Step 1: Client build
     console.log('📦 Step 1/4: Building client...');
     await runCommand('npx', ['vite', 'build']);
-    console.log('✅ Client build completed\n');
+    console.log('✅ Client build done\n');
 
     // Step 2: SSR build
     console.log('📦 Step 2/4: Building SSR...');
     await runCommand('npx', ['vite', 'build'], { SSR: 'true' });
-    console.log('✅ SSR build completed\n');
+    console.log('✅ SSR build done\n');
 
     // Step 3: Generate sitemaps
     console.log('📦 Step 3/4: Generating sitemaps...');
-    const { blogArticles } = await generateSitemaps(metiers, villes);
+    await generateSitemaps();
 
-    // Step 4: Prerender ALL pages
-    console.log('\n📦 Step 4/4: Prerendering ALL pages...');
-    await prerenderAllPages(metiers, villes, blogArticles);
+    // Step 4: Prerender pages
+    console.log('\n📦 Step 4/4: Prerendering pages...');
+    const { total, failed } = await prerenderAllPages();
 
-    console.log('\n🎉 BUILD COMPLETED SUCCESSFULLY!');
-    console.log('🔍 All pages have full HTML for SEO crawlers.');
+    console.log('\n🎉 BUILD COMPLETED!');
+    console.log(`📊 Total: ${total} pages prerendered`);
+
   } catch (error) {
     console.error('❌ Build failed:', error.message);
     process.exit(1);

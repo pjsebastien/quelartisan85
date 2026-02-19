@@ -28,10 +28,8 @@ export default function SEOHead({
   jsonLd
 }: SEOHeadProps) {
   useEffect(() => {
-    // Set title
     document.title = title;
 
-    // Helper to set or create meta tag
     const setMetaTag = (name: string, content: string, isProperty = false) => {
       const attr = isProperty ? 'property' : 'name';
       let meta = document.querySelector(`meta[${attr}="${name}"]`) as HTMLMetaElement;
@@ -43,7 +41,6 @@ export default function SEOHead({
       meta.setAttribute('content', content);
     };
 
-    // Helper to set or create link tag
     const setLinkTag = (rel: string, href: string) => {
       let link = document.querySelector(`link[rel="${rel}"]`) as HTMLLinkElement;
       if (!link) {
@@ -54,14 +51,10 @@ export default function SEOHead({
       link.setAttribute('href', href);
     };
 
-    // Basic meta tags
     setMetaTag('description', description);
-
-    // Canonical URL
     const canonicalUrl = canonical ? `${SITE_URL}${canonical}` : SITE_URL;
     setLinkTag('canonical', canonicalUrl);
 
-    // OpenGraph tags
     setMetaTag('og:title', title, true);
     setMetaTag('og:description', description, true);
     setMetaTag('og:url', canonicalUrl, true);
@@ -72,55 +65,34 @@ export default function SEOHead({
     setMetaTag('og:site_name', 'Quel Artisan 85', true);
     setMetaTag('og:locale', 'fr_FR', true);
 
-    // Twitter Card tags
     setMetaTag('twitter:card', 'summary_large_image');
     setMetaTag('twitter:title', title);
     setMetaTag('twitter:description', description);
     setMetaTag('twitter:image', ogImage);
 
-    // Article-specific OpenGraph tags
     if (ogType === 'article' && article) {
-      if (article.publishedTime) {
-        setMetaTag('article:published_time', article.publishedTime, true);
-      }
-      if (article.modifiedTime) {
-        setMetaTag('article:modified_time', article.modifiedTime, true);
-      }
-      if (article.author) {
-        setMetaTag('article:author', article.author, true);
-      }
-      if (article.section) {
-        setMetaTag('article:section', article.section, true);
-      }
+      if (article.publishedTime) setMetaTag('article:published_time', article.publishedTime, true);
+      if (article.modifiedTime) setMetaTag('article:modified_time', article.modifiedTime, true);
+      if (article.author) setMetaTag('article:author', article.author, true);
+      if (article.section) setMetaTag('article:section', article.section, true);
     }
 
-    // JSON-LD structured data
     if (jsonLd) {
-      // Remove existing JSON-LD script (to avoid duplicates on re-render)
       const existingScript = document.querySelector('script[data-seo-jsonld]');
-      if (existingScript) {
-        existingScript.remove();
-      }
+      if (existingScript) existingScript.remove();
 
       const script = document.createElement('script');
       script.type = 'application/ld+json';
       script.setAttribute('data-seo-jsonld', 'true');
-
-      // Support single object or array of objects
       const jsonLdData = Array.isArray(jsonLd) ? jsonLd : [jsonLd];
       script.textContent = JSON.stringify(jsonLdData.length === 1 ? jsonLdData[0] : jsonLdData);
       document.head.appendChild(script);
-
-      return () => {
-        script.remove();
-      };
+      return () => { script.remove(); };
     }
   }, [title, description, canonical, ogImage, ogType, article, jsonLd]);
 
   return null;
 }
-
-// Helper functions to generate common JSON-LD schemas
 
 export function generateOrganizationSchema() {
   return {
@@ -129,17 +101,9 @@ export function generateOrganizationSchema() {
     name: 'Quel Artisan 85',
     url: SITE_URL,
     logo: `${SITE_URL}/favicon.svg`,
-    description: 'Plateforme de mise en relation avec des artisans qualifiés en Vendée (85). Devis gratuits et sans engagement.',
-    address: {
-      '@type': 'PostalAddress',
-      addressRegion: 'Vendée',
-      addressCountry: 'FR'
-    },
-    areaServed: {
-      '@type': 'AdministrativeArea',
-      name: 'Vendée'
-    },
-    serviceType: 'Mise en relation artisans'
+    description: 'Plateforme de mise en relation avec des artisans qualifiés en Vendée (85).',
+    address: { '@type': 'PostalAddress', addressRegion: 'Vendée', addressCountry: 'FR' },
+    areaServed: { '@type': 'AdministrativeArea', name: 'Vendée' }
   };
 }
 
@@ -149,8 +113,8 @@ export function generateLocalBusinessSchema(trade: string, city?: string, postal
     '@type': 'LocalBusiness',
     name: city ? `${trade} à ${city}` : `${trade} en Vendée`,
     description: city
-      ? `Trouvez un ${trade.toLowerCase()} qualifié à ${city}. Devis gratuits et rapides.`
-      : `Trouvez un ${trade.toLowerCase()} qualifié en Vendée (85). Devis gratuits et rapides.`,
+      ? `Trouvez un ${trade.toLowerCase()} qualifié à ${city}. Devis gratuits.`
+      : `Trouvez un ${trade.toLowerCase()} qualifié en Vendée (85).`,
     url: SITE_URL,
     address: {
       '@type': 'PostalAddress',
@@ -158,10 +122,6 @@ export function generateLocalBusinessSchema(trade: string, city?: string, postal
       postalCode: postalCode || '85000',
       addressRegion: 'Vendée',
       addressCountry: 'FR'
-    },
-    areaServed: {
-      '@type': 'AdministrativeArea',
-      name: city || 'Vendée'
     },
     priceRange: '€€'
   };
@@ -187,10 +147,7 @@ export function generateFAQSchema(faqs: { question: string; answer: string }[]) 
     mainEntity: faqs.map(faq => ({
       '@type': 'Question',
       name: faq.question,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: faq.answer
-      }
+      acceptedAnswer: { '@type': 'Answer', text: faq.answer }
     }))
   };
 }
@@ -213,17 +170,11 @@ export function generateArticleSchema(article: {
     image: article.image || DEFAULT_OG_IMAGE,
     datePublished: article.publishedTime || new Date().toISOString(),
     dateModified: article.modifiedTime || article.publishedTime || new Date().toISOString(),
-    author: {
-      '@type': 'Organization',
-      name: article.author || 'Quel Artisan 85'
-    },
+    author: { '@type': 'Organization', name: article.author || 'Quel Artisan 85' },
     publisher: {
       '@type': 'Organization',
       name: 'Quel Artisan 85',
-      logo: {
-        '@type': 'ImageObject',
-        url: `${SITE_URL}/favicon.svg`
-      }
+      logo: { '@type': 'ImageObject', url: `${SITE_URL}/favicon.svg` }
     }
   };
 }
@@ -240,14 +191,8 @@ export function generateServiceSchema(service: {
     '@type': 'Service',
     name: service.name,
     description: service.description,
-    provider: {
-      '@type': 'LocalBusiness',
-      name: service.provider || 'Quel Artisan 85'
-    },
-    areaServed: {
-      '@type': 'AdministrativeArea',
-      name: service.areaServed || 'Vendée'
-    },
+    provider: { '@type': 'LocalBusiness', name: service.provider || 'Quel Artisan 85' },
+    areaServed: { '@type': 'AdministrativeArea', name: service.areaServed || 'Vendée' },
     priceRange: service.priceRange || '€€'
   };
 }

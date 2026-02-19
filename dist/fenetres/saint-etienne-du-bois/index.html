@@ -26,30 +26,96 @@
 
     <!-- JSON-LD Organization Schema -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Quel Artisan 85",
-      "url": "https://www.quelartisan85.fr",
-      "logo": "https://www.quelartisan85.fr/favicon.svg",
-      "description": "Plateforme de mise en relation avec des artisans qualifiés en Vendée (85). Devis gratuits et sans engagement.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressRegion": "Vendée",
-        "addressCountry": "FR"
-      },
-      "areaServed": {
-        "@type": "AdministrativeArea",
-        "name": "Vendée"
-      },
-      "sameAs": [],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@margouillapp.re",
-        "availableLanguage": "French"
-      }
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Quel Artisan 85",
+    "url": "https://www.quelartisan85.fr",
+    "logo": "https://www.quelartisan85.fr/favicon.svg",
+    "description": "Plateforme de mise en relation avec des artisans qualifiés en Vendée (85).",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Vendée",
+      "addressCountry": "FR"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Vendée"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "email": "contact@margouillapp.re",
+      "availableLanguage": "French"
     }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Fenêtres à Saint-Étienne-du-Bois",
+    "description": "Trouvez un fenêtres qualifié à Saint-Étienne-du-Bois (85670). Devis gratuits.",
+    "url": "https://www.quelartisan85.fr/fenetres/saint-etienne-du-bois",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Saint-Étienne-du-Bois",
+      "postalCode": "85670",
+      "addressRegion": "Vendée",
+      "addressCountry": "FR"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Saint-Étienne-du-Bois"
+    },
+    "priceRange": "150 à 400 €"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.quelartisan85.fr"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Fenêtres en Vendée",
+        "item": "https://www.quelartisan85.fr/fenetres/vendee"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Saint-Étienne-du-Bois",
+        "item": "https://www.quelartisan85.fr/fenetres/saint-etienne-du-bois"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quel est le prix d’un {metier} à Saint-Étienne-du-Bois (85670) ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pour un {metier} à Saint-Étienne-du-Bois, le tarif est généralement de 150 à 400 € par fenêtre posée."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quels services propose un {metier} en Vendée ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Les artisans {metier} de Vendée assurent l’installation, la rénovation et l’entretien selon vos besoins."
+        }
+      }
+    ]
+  }
+]
     </script>
 
     <title>Fenêtres à Saint-Étienne-du-Bois (85670) - Devis gratuit en 2 min !</title>

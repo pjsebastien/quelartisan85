@@ -26,30 +26,104 @@
 
     <!-- JSON-LD Organization Schema -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Quel Artisan 85",
-      "url": "https://www.quelartisan85.fr",
-      "logo": "https://www.quelartisan85.fr/favicon.svg",
-      "description": "Plateforme de mise en relation avec des artisans qualifiés en Vendée (85). Devis gratuits et sans engagement.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressRegion": "Vendée",
-        "addressCountry": "FR"
-      },
-      "areaServed": {
-        "@type": "AdministrativeArea",
-        "name": "Vendée"
-      },
-      "sameAs": [],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@margouillapp.re",
-        "availableLanguage": "French"
-      }
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Quel Artisan 85",
+    "url": "https://www.quelartisan85.fr",
+    "logo": "https://www.quelartisan85.fr/favicon.svg",
+    "description": "Plateforme de mise en relation avec des artisans qualifiés en Vendée (85).",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Vendée",
+      "addressCountry": "FR"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Vendée"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "email": "contact@margouillapp.re",
+      "availableLanguage": "French"
     }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Ravalement de façade à Saint-Fulgent",
+    "description": "Trouvez un ravalement de façade qualifié à Saint-Fulgent (85250). Devis gratuits.",
+    "url": "https://www.quelartisan85.fr/ravalement-facade/saint-fulgent",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Saint-Fulgent",
+      "postalCode": "85250",
+      "addressRegion": "Vendée",
+      "addressCountry": "FR"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Saint-Fulgent"
+    },
+    "priceRange": "30 à 150 €"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.quelartisan85.fr"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Ravalement de façade en Vendée",
+        "item": "https://www.quelartisan85.fr/ravalement-facade/vendee"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Saint-Fulgent",
+        "item": "https://www.quelartisan85.fr/ravalement-facade/saint-fulgent"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quel est le prix d'un ravalement de façade à Saint-Fulgent (85250) ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "À Saint-Fulgent, le ravalement coûte entre 30 et 150 €/m² : nettoyage simple (30-50 €/m²), ravalement avec peinture (50-80 €/m²), ravalement avec ITE (100-150 €/m²)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Le ravalement de façade est-il obligatoire en Vendée ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "En Vendée, le ravalement peut être obligatoire tous les 10 ans selon les arrêtés municipaux."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quelles aides pour un ravalement de façade à Saint-Fulgent ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "À Saint-Fulgent, vous pouvez bénéficier de MaPrimeRénov', des CEE et de la TVA à 5,5% si vous combinez le ravalement avec une ITE."
+        }
+      }
+    ]
+  }
+]
     </script>
 
     <title>Ravalement de façade à Saint-Fulgent (85250) - Devis gratuit en 2 min !</title>

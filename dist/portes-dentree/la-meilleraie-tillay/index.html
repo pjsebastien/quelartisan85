@@ -26,30 +26,96 @@
 
     <!-- JSON-LD Organization Schema -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Quel Artisan 85",
-      "url": "https://www.quelartisan85.fr",
-      "logo": "https://www.quelartisan85.fr/favicon.svg",
-      "description": "Plateforme de mise en relation avec des artisans qualifiés en Vendée (85). Devis gratuits et sans engagement.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressRegion": "Vendée",
-        "addressCountry": "FR"
-      },
-      "areaServed": {
-        "@type": "AdministrativeArea",
-        "name": "Vendée"
-      },
-      "sameAs": [],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@margouillapp.re",
-        "availableLanguage": "French"
-      }
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Quel Artisan 85",
+    "url": "https://www.quelartisan85.fr",
+    "logo": "https://www.quelartisan85.fr/favicon.svg",
+    "description": "Plateforme de mise en relation avec des artisans qualifiés en Vendée (85).",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Vendée",
+      "addressCountry": "FR"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Vendée"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "email": "contact@margouillapp.re",
+      "availableLanguage": "French"
     }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Portes d’entrée à La Meilleraie-Tillay",
+    "description": "Trouvez un portes d’entrée qualifié à La Meilleraie-Tillay (85700). Devis gratuits.",
+    "url": "https://www.quelartisan85.fr/portes-dentree/la-meilleraie-tillay",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "La Meilleraie-Tillay",
+      "postalCode": "85700",
+      "addressRegion": "Vendée",
+      "addressCountry": "FR"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "La Meilleraie-Tillay"
+    },
+    "priceRange": "300 à 1 200 €"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.quelartisan85.fr"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Portes d’entrée en Vendée",
+        "item": "https://www.quelartisan85.fr/portes-dentree/vendee"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "La Meilleraie-Tillay",
+        "item": "https://www.quelartisan85.fr/portes-dentree/la-meilleraie-tillay"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quel est le prix d’un {metier} à La Meilleraie-Tillay (85700) ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pour un {metier} à La Meilleraie-Tillay, le tarif est généralement de 300 à 1 200 € par porte posée."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quels services propose un {metier} en Vendée ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Les artisans {metier} de Vendée assurent l’installation, la rénovation et l’entretien selon vos besoins."
+        }
+      }
+    ]
+  }
+]
     </script>
 
     <title>Portes d’entrée à La Meilleraie-Tillay (85700) - Devis gratuit en 2 min !</title>

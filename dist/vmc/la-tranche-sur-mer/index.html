@@ -26,30 +26,104 @@
 
     <!-- JSON-LD Organization Schema -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Quel Artisan 85",
-      "url": "https://www.quelartisan85.fr",
-      "logo": "https://www.quelartisan85.fr/favicon.svg",
-      "description": "Plateforme de mise en relation avec des artisans qualifiés en Vendée (85). Devis gratuits et sans engagement.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressRegion": "Vendée",
-        "addressCountry": "FR"
-      },
-      "areaServed": {
-        "@type": "AdministrativeArea",
-        "name": "Vendée"
-      },
-      "sameAs": [],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@margouillapp.re",
-        "availableLanguage": "French"
-      }
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Quel Artisan 85",
+    "url": "https://www.quelartisan85.fr",
+    "logo": "https://www.quelartisan85.fr/favicon.svg",
+    "description": "Plateforme de mise en relation avec des artisans qualifiés en Vendée (85).",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Vendée",
+      "addressCountry": "FR"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Vendée"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "email": "contact@margouillapp.re",
+      "availableLanguage": "French"
     }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "VMC à La Tranche-sur-Mer",
+    "description": "Trouvez un vmc qualifié à La Tranche-sur-Mer (85360). Devis gratuits.",
+    "url": "https://www.quelartisan85.fr/vmc/la-tranche-sur-mer",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "La Tranche-sur-Mer",
+      "postalCode": "85360",
+      "addressRegion": "Vendée",
+      "addressCountry": "FR"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "La Tranche-sur-Mer"
+    },
+    "priceRange": "500 à 5 000 €"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.quelartisan85.fr"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "VMC en Vendée",
+        "item": "https://www.quelartisan85.fr/vmc/vendee"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "La Tranche-sur-Mer",
+        "item": "https://www.quelartisan85.fr/vmc/la-tranche-sur-mer"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quel est le prix d'une VMC à La Tranche-sur-Mer (85360) ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "À La Tranche-sur-Mer, comptez 500-1 500 € pour une VMC simple flux, 1 000-2 500 € pour une VMC hygroréglable, et 3 000-5 000 € pour une VMC double flux."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "La VMC est-elle obligatoire en Vendée ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui, en Vendée, la VMC est obligatoire dans les logements construits après 1982."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quelle VMC choisir pour ma maison à La Tranche-sur-Mer ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "À La Tranche-sur-Mer, pour une maison : VMC simple flux (économique), VMC hygroréglable (bon compromis), VMC double flux (performances maximales)."
+        }
+      }
+    ]
+  }
+]
     </script>
 
     <title>VMC à La Tranche-sur-Mer (85360) - Devis gratuit en 2 min !</title>

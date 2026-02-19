@@ -35,9 +35,151 @@ const blogArticles = [
   'budget-travaux-2025'
 ];
 
+const SITE_URL = 'https://www.quelartisan85.fr';
+
+// Generate JSON-LD schemas
+function generateJsonLd(url) {
+  const schemas = [];
+
+  // Organization schema (always present)
+  const orgSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Quel Artisan 85',
+    url: SITE_URL,
+    logo: `${SITE_URL}/favicon.svg`,
+    description: 'Plateforme de mise en relation avec des artisans qualifiés en Vendée (85).',
+    address: { '@type': 'PostalAddress', addressRegion: 'Vendée', addressCountry: 'FR' },
+    areaServed: { '@type': 'AdministrativeArea', name: 'Vendée' },
+    contactPoint: { '@type': 'ContactPoint', contactType: 'customer service', email: 'contact@margouillapp.re', availableLanguage: 'French' }
+  };
+  schemas.push(orgSchema);
+
+  // Trade page (métier/vendee) - LocalBusiness + Breadcrumb
+  const tradeMatch = url.match(/^\/([^/]+)\/vendee$/);
+  if (tradeMatch) {
+    const metier = metiersBySlug.get(tradeMatch[1]);
+    if (metier) {
+      // LocalBusiness
+      schemas.push({
+        '@context': 'https://schema.org',
+        '@type': 'LocalBusiness',
+        name: `${metier.nom} en Vendée`,
+        description: `Trouvez un ${metier.nom.toLowerCase()} qualifié en Vendée (85). Devis gratuits.`,
+        url: `${SITE_URL}/${metier.slug}/vendee`,
+        address: { '@type': 'PostalAddress', addressLocality: 'Vendée', postalCode: '85000', addressRegion: 'Vendée', addressCountry: 'FR' },
+        areaServed: { '@type': 'AdministrativeArea', name: 'Vendée' },
+        priceRange: metier.prix ? `${metier.prix}` : '€€'
+      });
+      // Breadcrumb
+      schemas.push({
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Accueil', item: SITE_URL },
+          { '@type': 'ListItem', position: 2, name: `${metier.nom} en Vendée`, item: `${SITE_URL}/${metier.slug}/vendee` }
+        ]
+      });
+      // FAQPage if FAQ exists
+      if (metier.faq && metier.faq.length > 0) {
+        schemas.push({
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: metier.faq.slice(0, 5).map(f => ({
+            '@type': 'Question',
+            name: f.q.replace(/{ville}/g, 'Vendée').replace(/{code_postal}/g, '85').replace(/{departement}/g, 'Vendée'),
+            acceptedAnswer: { '@type': 'Answer', text: f.r.replace(/{ville}/g, 'Vendée').replace(/{code_postal}/g, '85').replace(/{departement}/g, 'Vendée') }
+          }))
+        });
+      }
+    }
+  }
+
+  // Trade + City page (métier/ville) - LocalBusiness + Breadcrumb + FAQ
+  const tradeCityMatch = url.match(/^\/([^/]+)\/([^/]+)$/);
+  if (tradeCityMatch && tradeCityMatch[2] !== 'vendee') {
+    const metier = metiersBySlug.get(tradeCityMatch[1]);
+    const ville = villesBySlug.get(tradeCityMatch[2]);
+    if (metier && ville) {
+      // LocalBusiness
+      schemas.push({
+        '@context': 'https://schema.org',
+        '@type': 'LocalBusiness',
+        name: `${metier.nom} à ${ville.nom}`,
+        description: `Trouvez un ${metier.nom.toLowerCase()} qualifié à ${ville.nom} (${ville.code_postal}). Devis gratuits.`,
+        url: `${SITE_URL}/${metier.slug}/${ville.slug}`,
+        address: { '@type': 'PostalAddress', addressLocality: ville.nom, postalCode: ville.code_postal, addressRegion: 'Vendée', addressCountry: 'FR' },
+        areaServed: { '@type': 'City', name: ville.nom },
+        priceRange: metier.prix ? `${metier.prix}` : '€€'
+      });
+      // Breadcrumb
+      schemas.push({
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Accueil', item: SITE_URL },
+          { '@type': 'ListItem', position: 2, name: `${metier.nom} en Vendée`, item: `${SITE_URL}/${metier.slug}/vendee` },
+          { '@type': 'ListItem', position: 3, name: ville.nom, item: `${SITE_URL}/${metier.slug}/${ville.slug}` }
+        ]
+      });
+      // FAQPage if FAQ exists
+      if (metier.faq && metier.faq.length > 0) {
+        schemas.push({
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: metier.faq.slice(0, 5).map(f => ({
+            '@type': 'Question',
+            name: f.q.replace(/{ville}/g, ville.nom).replace(/{code_postal}/g, ville.code_postal).replace(/{departement}/g, 'Vendée'),
+            acceptedAnswer: { '@type': 'Answer', text: f.r.replace(/{ville}/g, ville.nom).replace(/{code_postal}/g, ville.code_postal).replace(/{departement}/g, 'Vendée') }
+          }))
+        });
+      }
+    }
+  }
+
+  // Blog article - Article schema + Breadcrumb
+  if (url.startsWith('/blog/') && url !== '/blog') {
+    const slug = url.replace('/blog/', '');
+    const title = slug.replace(/-/g, ' ');
+    schemas.push({
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: title,
+      description: `Article sur ${title} - Conseils et informations.`,
+      url: `${SITE_URL}${url}`,
+      author: { '@type': 'Organization', name: 'Quel Artisan 85' },
+      publisher: { '@type': 'Organization', name: 'Quel Artisan 85', logo: { '@type': 'ImageObject', url: `${SITE_URL}/favicon.svg` } },
+      datePublished: new Date().toISOString(),
+      dateModified: new Date().toISOString()
+    });
+    schemas.push({
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Accueil', item: SITE_URL },
+        { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE_URL}/blog` },
+        { '@type': 'ListItem', position: 3, name: title, item: `${SITE_URL}${url}` }
+      ]
+    });
+  }
+
+  // Blog listing - Breadcrumb
+  if (url === '/blog') {
+    schemas.push({
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Accueil', item: SITE_URL },
+        { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE_URL}/blog` }
+      ]
+    });
+  }
+
+  return schemas;
+}
+
 // Generate SEO metadata based on URL
 function generateSEOMetadata(url) {
-  const SITE_URL = 'https://www.quelartisan85.fr';
 
   // Homepage
   if (url === '/') {
@@ -99,7 +241,8 @@ function generateSEOMetadata(url) {
     return {
       title: `${slug.replace(/-/g, ' ')} - Blog Quel Artisan 85`,
       description: `Article sur ${slug.replace(/-/g, ' ')} - Conseils et informations.`,
-      canonical: `${SITE_URL}${url}`
+      canonical: `${SITE_URL}${url}`,
+      ogType: 'article'
     };
   }
 
@@ -234,6 +377,10 @@ async function prerenderAllPages() {
     try {
       const appHtml = render(url);
       const seo = generateSEOMetadata(url);
+      const jsonLdSchemas = generateJsonLd(url);
+
+      // Generate JSON-LD script tag
+      const jsonLdScript = `<script type="application/ld+json">\n${JSON.stringify(jsonLdSchemas, null, 2)}\n    </script>`;
 
       let html = baseHtml
         .replace('<!--app-html-->', appHtml)
@@ -246,9 +393,12 @@ async function prerenderAllPages() {
         .replace(/<meta property="og:title" content="[^"]*"/, `<meta property="og:title" content="${seo.title}"`)
         .replace(/<meta property="og:description" content="[^"]*"/, `<meta property="og:description" content="${seo.description}"`)
         .replace(/<meta property="og:url" content="[^"]*"/, `<meta property="og:url" content="${seo.canonical}"`)
+        .replace(/<meta property="og:type" content="[^"]*"/, `<meta property="og:type" content="${seo.ogType || 'website'}"`)
         // Twitter Cards
         .replace(/<meta name="twitter:title" content="[^"]*"/, `<meta name="twitter:title" content="${seo.title}"`)
-        .replace(/<meta name="twitter:description" content="[^"]*"/, `<meta name="twitter:description" content="${seo.description}"`);
+        .replace(/<meta name="twitter:description" content="[^"]*"/, `<meta name="twitter:description" content="${seo.description}"`)
+        // Replace existing JSON-LD with new schemas
+        .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, jsonLdScript);
 
       mkdirSync(dirname(outputPath), { recursive: true });
       writeFileSync(outputPath, html, 'utf8');

@@ -26,30 +26,96 @@
 
     <!-- JSON-LD Organization Schema -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Quel Artisan 85",
-      "url": "https://www.quelartisan85.fr",
-      "logo": "https://www.quelartisan85.fr/favicon.svg",
-      "description": "Plateforme de mise en relation avec des artisans qualifiés en Vendée (85). Devis gratuits et sans engagement.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressRegion": "Vendée",
-        "addressCountry": "FR"
-      },
-      "areaServed": {
-        "@type": "AdministrativeArea",
-        "name": "Vendée"
-      },
-      "sameAs": [],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@margouillapp.re",
-        "availableLanguage": "French"
-      }
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Quel Artisan 85",
+    "url": "https://www.quelartisan85.fr",
+    "logo": "https://www.quelartisan85.fr/favicon.svg",
+    "description": "Plateforme de mise en relation avec des artisans qualifiés en Vendée (85).",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Vendée",
+      "addressCountry": "FR"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Vendée"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "email": "contact@margouillapp.re",
+      "availableLanguage": "French"
     }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Démolition à Dompierre-sur-Yon",
+    "description": "Trouvez un démolition qualifié à Dompierre-sur-Yon (85170). Devis gratuits.",
+    "url": "https://www.quelartisan85.fr/demolition/dompierre-sur-yon",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dompierre-sur-Yon",
+      "postalCode": "85170",
+      "addressRegion": "Vendée",
+      "addressCountry": "FR"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Dompierre-sur-Yon"
+    },
+    "priceRange": "30 à 80 €"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.quelartisan85.fr"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Démolition en Vendée",
+        "item": "https://www.quelartisan85.fr/demolition/vendee"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Dompierre-sur-Yon",
+        "item": "https://www.quelartisan85.fr/demolition/dompierre-sur-yon"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quel est le prix d’un {metier} à Dompierre-sur-Yon (85170) ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pour un {metier} à Dompierre-sur-Yon, le tarif est généralement de 30 à 80 € par m²."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quels services propose un {metier} en Vendée ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Les artisans {metier} de Vendée assurent l’installation, la rénovation et l’entretien selon vos besoins."
+        }
+      }
+    ]
+  }
+]
     </script>
 
     <title>Démolition à Dompierre-sur-Yon (85170) - Devis gratuit en 2 min !</title>

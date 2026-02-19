@@ -26,30 +26,96 @@
 
     <!-- JSON-LD Organization Schema -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Quel Artisan 85",
-      "url": "https://www.quelartisan85.fr",
-      "logo": "https://www.quelartisan85.fr/favicon.svg",
-      "description": "Plateforme de mise en relation avec des artisans qualifiés en Vendée (85). Devis gratuits et sans engagement.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressRegion": "Vendée",
-        "addressCountry": "FR"
-      },
-      "areaServed": {
-        "@type": "AdministrativeArea",
-        "name": "Vendée"
-      },
-      "sameAs": [],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@margouillapp.re",
-        "availableLanguage": "French"
-      }
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Quel Artisan 85",
+    "url": "https://www.quelartisan85.fr",
+    "logo": "https://www.quelartisan85.fr/favicon.svg",
+    "description": "Plateforme de mise en relation avec des artisans qualifiés en Vendée (85).",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Vendée",
+      "addressCountry": "FR"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Vendée"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "email": "contact@margouillapp.re",
+      "availableLanguage": "French"
     }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Climatisation gainable à Vix",
+    "description": "Trouvez un climatisation gainable qualifié à Vix (85770). Devis gratuits.",
+    "url": "https://www.quelartisan85.fr/climatisation-gainable/vix",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vix",
+      "postalCode": "85770",
+      "addressRegion": "Vendée",
+      "addressCountry": "FR"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Vix"
+    },
+    "priceRange": "3 000 à 8 000 €"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.quelartisan85.fr"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Climatisation gainable en Vendée",
+        "item": "https://www.quelartisan85.fr/climatisation-gainable/vendee"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Vix",
+        "item": "https://www.quelartisan85.fr/climatisation-gainable/vix"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quel est le prix d’un {metier} à Vix (85770) ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pour un {metier} à Vix, le tarif est généralement de 3 000 à 8 000 € par installation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quels services propose un {metier} en Vendée ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Les artisans {metier} de Vendée assurent l’installation, la rénovation et l’entretien selon vos besoins."
+        }
+      }
+    ]
+  }
+]
     </script>
 
     <title>Climatisation gainable à Vix (85770) - Devis gratuit en 2 min !</title>

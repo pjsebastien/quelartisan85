@@ -26,30 +26,104 @@
 
     <!-- JSON-LD Organization Schema -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Quel Artisan 85",
-      "url": "https://www.quelartisan85.fr",
-      "logo": "https://www.quelartisan85.fr/favicon.svg",
-      "description": "Plateforme de mise en relation avec des artisans qualifiés en Vendée (85). Devis gratuits et sans engagement.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressRegion": "Vendée",
-        "addressCountry": "FR"
-      },
-      "areaServed": {
-        "@type": "AdministrativeArea",
-        "name": "Vendée"
-      },
-      "sameAs": [],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@margouillapp.re",
-        "availableLanguage": "French"
-      }
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Quel Artisan 85",
+    "url": "https://www.quelartisan85.fr",
+    "logo": "https://www.quelartisan85.fr/favicon.svg",
+    "description": "Plateforme de mise en relation avec des artisans qualifiés en Vendée (85).",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Vendée",
+      "addressCountry": "FR"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Vendée"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "email": "contact@margouillapp.re",
+      "availableLanguage": "French"
     }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Maçonnerie à Luçon",
+    "description": "Trouvez un maçonnerie qualifié à Luçon (85400). Devis gratuits.",
+    "url": "https://www.quelartisan85.fr/maconnerie/lucon",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Luçon",
+      "postalCode": "85400",
+      "addressRegion": "Vendée",
+      "addressCountry": "FR"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Luçon"
+    },
+    "priceRange": "50 à 150 €"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.quelartisan85.fr"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Maçonnerie en Vendée",
+        "item": "https://www.quelartisan85.fr/maconnerie/vendee"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Luçon",
+        "item": "https://www.quelartisan85.fr/maconnerie/lucon"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quel est le prix d'un maçon à Luçon (85400) ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "À Luçon, le tarif d'un maçon varie de 50 à 150 € par m² selon le type de travaux : mur en parpaings (50-80 €/m²), mur en pierre (100-150 €/m²), fondations (80-120 €/m linéaire)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quels travaux peut réaliser un maçon en Vendée ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Un maçon en Vendée peut réaliser la construction de murs, les fondations, la rénovation de façades, l'ouverture de murs porteurs, et tous travaux de gros œuvre."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Un maçon peut-il ouvrir un mur porteur à Luçon ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui, un maçon qualifié peut ouvrir un mur porteur à Luçon après étude de structure. Cette intervention nécessite généralement l'avis d'un bureau d'études."
+        }
+      }
+    ]
+  }
+]
     </script>
 
     <title>Maçonnerie à Luçon (85400) - Devis gratuit en 2 min !</title>
